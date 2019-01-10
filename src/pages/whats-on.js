@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 const SecondPage = () => (
   <Layout>
     <SEO title="Whats On" />
-    <Link to="/">Homepage</Link>
+    <Link to="/menu">Menu</Link>
     <h1>Whats On</h1>
     <p>Lorem ipsum cesar salad and dolores mortis.</p>
   </Layout>

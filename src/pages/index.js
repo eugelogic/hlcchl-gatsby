@@ -8,6 +8,7 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`charity`, `highgate`, `hall hire`]} />
+    <Link to="/menu">Menu</Link>
     <h1>The Holly Lodge Community Centre offers a whole range of activities in a friendly,
 relaxed environment. We also offer space to hire for events.</h1>
     <h2>LATEST ANNOUNCEMENTS:</h2>
@@ -15,7 +16,6 @@ relaxed environment. We also offer space to hire for events.</h1>
     <div style={{ maxWidth: `600px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
