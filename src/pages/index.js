@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`charity`, `highgate`, `hall hire`]} />
     <h1>The Holly Lodge Community Centre offers a whole range of activities in a friendly,
 relaxed environment. We also offer space to hire for events.</h1>
     <h2>LATEST ANNOUNCEMENTS:</h2>
