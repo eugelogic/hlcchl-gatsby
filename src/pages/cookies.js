@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const SecondPage = () => (
+const CookiesPage = () => (
   <Layout>
     <SEO title="Cookies" />
     <Link to="/menu">Menu</Link>
@@ -13,4 +13,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default CookiesPage
