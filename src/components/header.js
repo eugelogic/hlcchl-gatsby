@@ -3,11 +3,30 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 const Header = ({ siteTitle }) => (
+<>
   <div
     style={{
-      background: `#189960`,
-      marginBottom: `1.45rem`,
       textAlign: `center`,
+      background: `white`
+    }}
+  >
+    <div
+      style={{
+        margin: `0 auto`,
+        maxWidth: 960,
+        padding: `10px 0`,
+      }}
+    >
+      <p style={{ margin: 0 }}>
+        Call Us on <a href="tel:02083429524">0208 342 9524</a> or Send Us an Email at <a href="mailto:hollylodgelondon@hotmail.com">hollylodgelondon@hotmail.com</a>
+      </p>
+    </div>
+ </div>
+ <div
+    style={{
+        marginBottom: `1.45rem`,
+        textAlign: `center`,
+        background: `#189960`
     }}
   >
     <div
@@ -30,6 +49,7 @@ const Header = ({ siteTitle }) => (
       </h1>
     </div>
   </div>
+</>
 )
 
 Header.propTypes = {
