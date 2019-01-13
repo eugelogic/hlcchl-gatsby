@@ -60,10 +60,6 @@ strong {
 dfn {
   font-style: italic;
 }
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 mark {
   background-color: #ff0;
   color: #000;
@@ -222,6 +218,8 @@ img {
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: normal;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -231,13 +229,13 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-weight: normal;
   text-rendering: optimizeLegibility;
-  font-size: 26px;
   line-height: 1.1;
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: normal;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -247,9 +245,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
   line-height: 1.1;
 }
 h3 {
