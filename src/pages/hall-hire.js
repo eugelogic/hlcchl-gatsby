@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -7,7 +6,6 @@ import SEO from '../components/seo'
 const HallHirePage = () => (
   <Layout>
     <SEO title="Hall Hire" />
-    <Link to="/menu">Menu</Link>
     <h1>Hall Hire</h1>
     <p>Lorem ipsum cesar salad and dolores mortis.</p>
   </Layout>

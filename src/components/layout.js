@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 
 import Header from './header'
 import Footer from './footer'
@@ -28,6 +29,7 @@ const Layout = ({ children }) => (
             paddingTop: 0,
           }}
         >
+        <Link to="/menu">Menu</Link>
           {children}
         </div>
         <Footer />
