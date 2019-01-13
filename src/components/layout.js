@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-import { Link } from 'gatsby'
 
 import Header from './header'
+import Menu from '../components/menu/menu'
 import Footer from './footer'
 import './layout.css'
 
@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
             paddingTop: 0,
           }}
         >
-        <Link to="/menu">Menu</Link>
+        <Menu />
           {children}
         </div>
         <Footer />

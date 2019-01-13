@@ -24,7 +24,6 @@ const Header = ({ siteTitle }) => (
  </div>
  <div
     style={{
-        marginBottom: `1.45rem`,
         textAlign: `center`,
         background: `#189960`
     }}

@@ -1,0 +1,10 @@
+.menu-container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase !important;
+}
