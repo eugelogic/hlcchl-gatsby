@@ -1,14 +1,14 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import LayoutPage from '../components/layout-page/layout-page'
 import SEO from '../components/seo'
 
 const GalleryPage = () => (
-  <Layout>
+  <LayoutPage>
     <SEO title="Gallery" />
     <h1>Gallery</h1>
     <p>Lorem ipsum cesar salad and dolores mortis.</p>
-  </Layout>
+  </LayoutPage>
 )
 
 export default GalleryPage

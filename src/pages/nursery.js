@@ -1,14 +1,14 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import LayoutPage from '../components/layout-page/layout-page'
 import SEO from '../components/seo'
 
 const NurseryPage = () => (
-  <Layout>
+  <LayoutPage>
     <SEO title="Nursery" />
     <h1>Nursery</h1>
     <p>Lorem ipsum cesar salad and dolores mortis.</p>
-  </Layout>
+  </LayoutPage>
 )
 
 export default NurseryPage
