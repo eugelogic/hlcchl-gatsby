@@ -1,6 +1,8 @@
 .homepage-hero {
-    // background-image: url('./images/Holly-Lodge-Community-Centre-homepage-hero-bg.jpg');
-    // background: url('./images/Holly-Lodge-Community-Centre-homepage-hero-bg.jpg') center no-repeat;
+    background-image: url("../../images/Holly-Lodge-Community-Centre-homepage-hero-bg.jpg");
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
     background-color: #189960;
     display: flex;
     flex-direction: column;
