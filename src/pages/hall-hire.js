@@ -5,9 +5,8 @@ import LayoutPage from '../components/layout-page/layout-page'
 import SEO from '../components/seo'
 
 const HallHirePage = () => (
-  <LayoutPage>
+  <LayoutPage pageTitle="Hall Hire">
     <SEO title="Hall Hire" />
-    <h1>Hall Hire</h1>
     <p>Are you looking for a hall to hire in North London?<br />
         Would you like to hold classes, lectures, workshops, seminars, meetings or other events?<br />
         <strong>Unfortunately we are not hiring out the hall for parties.</strong></p>

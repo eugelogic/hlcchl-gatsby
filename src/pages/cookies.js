@@ -4,9 +4,8 @@ import LayoutPage from '../components/layout-page/layout-page'
 import SEO from '../components/seo'
 
 const CookiesPage = () => (
-  <LayoutPage>
+  <LayoutPage pageTitle="Cookies">
     <SEO title="Cookies" />
-    <h1>Cookies</h1>
     <p>Lorem ipsum cesar salad and dolores mortis.</p>
   </LayoutPage>
 )

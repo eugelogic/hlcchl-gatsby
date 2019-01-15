@@ -5,9 +5,8 @@ import LayoutPage from '../components/layout-page/layout-page'
 import SEO from '../components/seo'
 
 const TermsOfHirePage = () => (
-  <LayoutPage>
+  <LayoutPage pageTitle="Terms of Hire">
     <SEO title="Terms of Hire" />
-    <h1>Terms of Hire</h1>
     <p>The Community Centre in Makepeace Avenue holds a maximum of 80 people.</p>
     <p>The hall can be divided into sections for events involving fewer people or if a larger event wants to break into smaller groups.
 The main hall space is approx 9.0m x 9.0m.</p>
