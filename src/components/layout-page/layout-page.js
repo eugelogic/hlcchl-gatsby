@@ -6,7 +6,7 @@ import Header from '../header'
 import Menu from '../menu/menu'
 import PageTitle from '../page-title/page-title'
 import Footer from '../footer'
-import '../layout.css'
+import './layout-page.scss'
 
 const LayoutPage = ({ children,pageTitle }) => (
   <StaticQuery
@@ -24,14 +24,7 @@ const LayoutPage = ({ children,pageTitle }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Menu />
         <PageTitle>{pageTitle}</PageTitle>
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-          }}
-        >
+        <div className="content">
           {children}
         </div>
         <Footer />
