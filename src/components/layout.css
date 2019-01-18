@@ -44,12 +44,14 @@ template {
   display: none;
 }
 a {
+    color: inherit;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
   outline-width: 0;
+  text-decoration: none;
 }
 abbr[title] {
   border-bottom: none;
