@@ -256,6 +256,8 @@ h2 {
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -265,9 +267,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
   line-height: 1.1;
 }
 h4 {
