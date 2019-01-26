@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import './homepage-cards.scss'
+import Button from '../button/button'
 
 const HomepageCards = () => (
   <div className="homepage-cards">
@@ -22,20 +22,7 @@ const HomepageCards = () => (
             </div>
 
             <div className="card__btn">
-                <Link
-                  to="/whats-on/"
-                  style={{
-                    color: 'white',
-                    backgroundColor: '#189960',
-                    textDecoration: 'none',
-                    textTransform: 'uppercase',
-                    borderRadius: '5px',
-                    padding: '15px',
-                    marginRight: '1em',
-                  }}
-                >
-                  Whats On
-                </Link>
+                <Button btnLink="/whats-on/" btnStyle="green" btnText="Whats On"/>
             </div>
 
         </div>{/* end of card */}
@@ -54,20 +41,7 @@ const HomepageCards = () => (
             </div>
 
             <div className="card__btn">
-                <Link
-                  to="/contact-us/"
-                  style={{
-                    color: 'white',
-                    backgroundColor: '#189960',
-                    textDecoration: 'none',
-                    textTransform: 'uppercase',
-                    borderRadius: '5px',
-                    padding: '15px',
-                    marginRight: '1em',
-                  }}
-                >
-                  Join Us
-                </Link>
+                <Button btnLink="/contact-us/" btnStyle="green" btnText="Join Us"/>
             </div>
 
         </div>{/* end of card */}
@@ -86,20 +60,7 @@ const HomepageCards = () => (
             </div>
 
             <div className="card__btn">
-                <Link
-                  to="/hall-hire/"
-                  style={{
-                    color: 'white',
-                    backgroundColor: '#189960',
-                    textDecoration: 'none',
-                    textTransform: 'uppercase',
-                    borderRadius: '5px',
-                    padding: '15px',
-                    marginRight: '1em',
-                  }}
-                >
-                  Hall Hire
-                </Link>
+                <Button btnLink="/hall-hire/" btnStyle="green" btnText="Hall Hire"/>
             </div>
 
         </div>{/* end of card */}

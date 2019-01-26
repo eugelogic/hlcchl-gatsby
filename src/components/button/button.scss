@@ -1,0 +1,36 @@
+.green {
+    color: white;
+    background-color: #189960;
+    border:1px solid #189960;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 1em;
+
+    &:hover,
+    &:focus {
+        color: #189960;
+        background-color: white;
+        border:1px solid #189960;
+    }
+
+}
+
+.white {
+    color: #189960;
+    background-color: white;
+    border:1px solid #189960;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 1em;
+
+    &:hover,
+    &:focus {
+        color: white;
+        background-color: #189960;
+    }
+
+}
