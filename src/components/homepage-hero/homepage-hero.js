@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import './homepage-hero.scss'
+import Button from '../button/button'
 
 const HomepageHero = () => (
   <div className="homepage-hero">
@@ -18,33 +18,8 @@ const HomepageHero = () => (
     </div>
 
     <div className="homepage-hero__btn-group">
-      <Link
-        to="/whats-on/"
-        style={{
-          color: 'white',
-          backgroundColor: '#189960',
-          textDecoration: 'none',
-          textTransform: 'uppercase',
-          borderRadius: '5px',
-          padding: '15px',
-          marginRight: '1em',
-        }}
-      >
-        Whats On
-      </Link>
-      <Link
-        to="/support-us/"
-        style={{
-          color: '#189960',
-          backgroundColor: 'white',
-          textDecoration: 'none',
-          textTransform: 'uppercase',
-          borderRadius: '5px',
-          padding: '15px',
-        }}
-      >
-        Support Us
-      </Link>
+      <Button btnLink="/whats-on/" btnStyle="green" btnText="Whats On"/>
+      <Button btnLink="/support-us/" btnStyle="white" btnText="Support Us"/>
     </div>
   </div>
 )
