@@ -6,6 +6,7 @@ import Header from './header'
 import Menu from '../components/menu/menu'
 import HomepageHero from '../components/homepage-hero/homepage-hero'
 import HomepageContent from '../components/homepage-content/homepage-content'
+import HomepageCards from '../components/homepage-cards/homepage-cards'
 import Footer from './footer'
 import './layout.css'
 
@@ -26,6 +27,7 @@ const Layout = ({ children }) => (
         <Menu />
         <HomepageHero />
         <HomepageContent />
+        <HomepageCards />
         <Footer />
       </>
     )}
