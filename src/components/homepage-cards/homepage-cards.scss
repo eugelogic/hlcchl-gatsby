@@ -1,0 +1,52 @@
+.homepage-cards {
+
+    .cards-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1170px;
+        padding: 60px 20px;
+
+        & > .card {
+            flex: 0 0 30%;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                margin-bottom: 0;
+                width: 100%;
+            }
+
+            &__title {
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            &__btn {
+                text-align: center;
+                margin-top: auto;
+                padding-top: 20px;
+            }
+
+        }
+
+    }
+
+    @media screen and (max-width: 780px) {
+
+        .cards-wrapper {
+            display: block;
+        }
+
+        .card {
+            max-width: 480px;
+            margin: 0 auto;
+            padding-bottom: 70px;
+        }
+
+    }
+
+}
