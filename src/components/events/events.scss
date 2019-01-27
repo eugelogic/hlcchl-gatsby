@@ -1,0 +1,49 @@
+.events {
+
+    &__entry-msg {
+        text-align: center;
+    }
+
+    .event-day {
+
+        &__heading {
+            text-transform: uppercase;
+            color: white;
+            background-color: #189960;
+            padding: 15px;
+
+            h4 {
+                margin-bottom: 0;
+            }
+
+        }
+
+        &__entry-even {
+            background-color: #f5f5f5;
+        }
+
+        &__entry-odd,
+        &__entry-even {
+            padding: 25px;
+            border-left: 1px solid #eee;
+            border-right: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+
+            h5 {
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+
+            p:last-child {
+                margin-bottom: 10px;
+            }
+
+        }
+
+    }
+
+    &__specials {
+        padding-top: 40px;
+    }
+
+}
