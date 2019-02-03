@@ -6,7 +6,9 @@ import SEO from '../components/seo'
 const LocalContactsPage = () => (
   <LayoutPage pageTitle="Local Contacts">
     <SEO title="Local Contacts" />
-    <p>Lorem ipsum cesar salad and dolores mortis.</p>
+
+    <p>Coming Soon</p>
+    
   </LayoutPage>
 )
 

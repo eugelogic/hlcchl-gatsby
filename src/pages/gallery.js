@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 const GalleryPage = () => (
   <LayoutPage pageTitle="Gallery">
     <SEO title="Gallery" />
-    <p>Lorem ipsum cesar salad and dolores mortis.</p>
+    <mark>image grid to go here ...</mark>
   </LayoutPage>
 )
 
