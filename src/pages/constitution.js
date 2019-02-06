@@ -106,7 +106,7 @@ const ConstitutionPage = () => (
     <p>Date 13/11/13</p>
     <p>Signed<br />
     Barbara Smith</p>
-    <figure>
+    <figure style={{ maxWidth: 200 }}>
         <img src={require("../images/B.I.Smith-signature.jpg")} alt="B.I.Smith-signature" />
     </figure>
     <p>Position: Chair</p>
