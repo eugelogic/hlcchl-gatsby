@@ -6,6 +6,7 @@ import Header from '../header'
 import Menu from '../menu/menu'
 import PageTitle from '../page-title/page-title'
 import Footer from '../footer'
+import '../style.css'
 import './layout-page.scss'
 
 const LayoutPage = ({ children,pageTitle }) => (
