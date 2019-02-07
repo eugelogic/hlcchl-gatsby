@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import '../style.css'
 import './homepage-content.scss'
 
 const HomepageContent = () => (

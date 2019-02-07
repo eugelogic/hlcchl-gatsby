@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import '../../components/style.css'
 
 import Header from '../../components/header'
 import Menu from '../../components/menu/menu'
