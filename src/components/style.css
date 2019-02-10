@@ -99,9 +99,6 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-figure {
-  margin: 1em 40px;
-}
 hr {
   box-sizing: content-box;
   height: 0;
@@ -212,7 +209,8 @@ body {
   font-feature-settings: 'kern', 'liga', 'clig', 'calt';
 }
 img {
-  max-width: 100%;
+    width: 100%;
+    margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -220,7 +218,6 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -258,6 +255,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: normal;
+    margin-bottom: 15px;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -265,7 +263,6 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   color: inherit;
   text-rendering: optimizeLegibility;
   line-height: 1.1;
@@ -383,14 +380,14 @@ p {
   margin-bottom: 1.45rem;
 }
 figure {
+    margin-top: 50px;
+    margin-bottom: 30px;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 pre {
   margin-left: 0;
@@ -619,4 +616,8 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.page-btn {
+    margin-bottom: 40px;
 }
