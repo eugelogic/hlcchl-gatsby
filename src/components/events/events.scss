@@ -4,6 +4,10 @@
         text-align: center;
     }
 
+    h3 {
+        text-transform: uppercase;
+    }
+
     .event-day {
 
         &__heading {
@@ -30,14 +34,22 @@
             border-bottom: 1px solid #eee;
 
             h5 {
-                font-size: 20px;
-                margin-bottom: 5px;
+                font-size: 22px;
+                margin-bottom: 0px;
             }
 
             p:last-child {
                 margin-bottom: 10px;
             }
 
+        }
+
+        .single-event__location {
+            font-weight: bold;
+        }
+
+        .event-description p {
+            margin-bottom: 0px;
         }
 
     }
