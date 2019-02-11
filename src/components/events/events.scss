@@ -4,7 +4,8 @@
         text-align: center;
     }
 
-    h3 {
+    h2 {
+        font-size: 22px;
         text-transform: uppercase;
     }
 
@@ -16,7 +17,9 @@
             background-color: #189960;
             padding: 15px;
 
-            h4 {
+            h3 {
+                font-size: 20px;
+                font-weight: bold;
                 margin-bottom: 0;
             }
 
@@ -33,9 +36,10 @@
             border-right: 1px solid #eee;
             border-bottom: 1px solid #eee;
 
-            h5 {
-                font-size: 22px;
+            h2 {
                 margin-bottom: 0px;
+                text-transform: none;
+                font-weight: bold;
             }
 
             p:last-child {
