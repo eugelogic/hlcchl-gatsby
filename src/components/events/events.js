@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import DOWBar from './dow-bar.js'
 import '../style.css'
 import './events.scss'
 
@@ -16,9 +17,9 @@ const Events = () => (
     <div className="events__table">
 
         <div className="event-day">
-            <div className="event-day__heading">
-                <h3>Mondays</h3>
-            </div>
+
+            <DOWBar>Mondays</DOWBar>
+
                 <article className="event-day__entry-odd">
                     <div className="event-time">
                         <time datetime="12:15">12:15</time> - <time datetime="14:00">14:00</time>
@@ -42,9 +43,9 @@ const Events = () => (
         </div>{/* end of event day */}
 
         <div className="event-day">
-            <div className="event-day__heading">
-                <h3>Tuesdays</h3>
-            </div>
+
+            <DOWBar>Tuesdays</DOWBar>
+
                 <article className="event-day__entry-odd">
                     <div className="event-time">
                         <time datetime="19:00">19:00</time> - <time datetime="20:00">20:00</time>
@@ -66,9 +67,9 @@ const Events = () => (
         </div>{/* end of event day */}
 
         <div className="event-day">
-            <div className="event-day__heading">
-                <h3>Wednesdays</h3>
-            </div>
+
+            <DOWBar>Wednesdays</DOWBar>
+
                 <article className="event-day__entry-odd">
                     <div className="event-time">
                         <time datetime="10:00">10:00</time> - <time datetime="11:00">11:00</time>
@@ -108,9 +109,9 @@ const Events = () => (
         </div>{/* end of event day */}
 
         <div className="event-day">
-            <div className="event-day__heading">
-                <h3>Thursdays</h3>
-            </div>
+
+            <DOWBar>Thursdays</DOWBar>
+
                 <article className="event-day__entry-odd">
                     <div className="event-time">
                         <time datetime="14:00">14:00</time> - <time datetime="15:00">15:00</time>
@@ -149,9 +150,9 @@ const Events = () => (
         </div>{/* end of event day */}
 
         <div className="event-day">
-            <div className="event-day__heading">
-                <h3>Fridays</h3>
-            </div>
+
+            <DOWBar>Fridays</DOWBar>
+
                 <article className="event-day__entry-odd">
                     <div className="event-time">
                         <time datetime="12:00">12:00</time> - <time datetime="13:30">13:30</time>
@@ -172,9 +173,9 @@ const Events = () => (
         </div>{/* end of event day */}
 
         <div className="event-day">
-            <div className="event-day__heading">
-                <h3>Saturdays</h3>
-            </div>
+
+            <DOWBar>Saturdays</DOWBar>
+
                 <article className="event-day__entry-odd">
                     <div className="event-time">
                         <time datetime="09:30">09:30</time> - <time datetime="10:30">10:30</time>
@@ -196,9 +197,9 @@ const Events = () => (
         </div>{/* end of event day */}
 
         <div className="event-day">
-            <div className="event-day__heading">
-                <h3>Sundays</h3>
-            </div>
+
+            <DOWBar>Sundays</DOWBar>
+
                 <article className="event-day__entry-odd">
                     <div className="event-description">
                         <p>NO EVENTS SCHEDULED</p>
