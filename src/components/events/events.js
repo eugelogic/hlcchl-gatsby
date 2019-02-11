@@ -21,7 +21,7 @@ const Events = () => (
             </div>
                 <div className="event-day__entry-odd">
                     <div className="event-time">
-                        <time datetime="2000-01-11T13:00:00">12:15</time> - <time datetime="2000-01-11T13:00:00">14:00</time>
+                        <time datetime="12:15">12:15</time> - <time datetime="14:00">14:00</time>
                     </div>
                     <div className="event-title">
                         <h5>The Monday Lunch</h5>
@@ -47,7 +47,7 @@ const Events = () => (
             </div>
             <div className="event-day__entry-odd">
                 <div className="event-time">
-                    <time datetime="2000-01-11T13:00:00">19:00</time> - <time datetime="2000-01-11T13:00:00">20:00</time>
+                    <time datetime="19:00">19:00</time> - <time datetime="20:00">20:00</time>
                 </div>
                 <div className="event-title">
                     <h5>Judo</h5>
@@ -71,7 +71,7 @@ const Events = () => (
             </div>
             <div className="event-day__entry-odd">
                 <div className="event-time">
-                    <time datetime="2000-01-11T13:00:00">10:00</time> - <time datetime="2000-01-11T13:00:00">11:00</time>
+                    <time datetime="10:00">10:00</time> - <time datetime="11:00">11:00</time>
                 </div>
                 <div className="event-title">
                     <h5>Pilates</h5>
@@ -89,7 +89,7 @@ const Events = () => (
             </div>
             <div className="event-day__entry-even">
                 <div className="event-time">
-                    <time datetime="2000-01-11T13:00:00">16:00</time> - <time datetime="2000-01-11T13:00:00">18:00</time>
+                    <time datetime="16:00">16:00</time> - <time datetime="18:00">18:00</time>
                 </div>
                 <div className="event-title">
                     <h5>Kidsart – classes for children</h5>
@@ -113,7 +113,7 @@ const Events = () => (
             </div>
             <div className="event-day__entry-odd">
                 <div className="event-time">
-                    <time datetime="2000-01-11T13:00:00">14:00</time> - <time datetime="2000-01-11T13:00:00">15:00</time>
+                    <time datetime="14:00">14:00</time> - <time datetime="15:00">15:00</time>
                 </div>
                 <div className="event-title">
                     <h5>Yoga with Ad de Koning</h5>
@@ -131,7 +131,7 @@ const Events = () => (
             </div>
             <div className="event-day__entry-even">
                 <div className="event-time">
-                    <time datetime="2000-01-11T13:00:00">19:15</time> - <time datetime="2000-01-11T13:00:00">20:30</time>
+                    <time datetime="19:15">19:15</time> - <time datetime="20:30">20:30</time>
                 </div>
                 <div className="event-title">
                     <h5>Yoga with Annie Rigby</h5>
@@ -154,7 +154,7 @@ const Events = () => (
             </div>
             <div className="event-day__entry-odd">
                 <div className="event-time">
-                    <time datetime="2000-01-11T13:00:00">12:00</time> - <time datetime="2000-01-11T13:00:00">13:30</time>
+                    <time datetime="12:00">12:00</time> - <time datetime="13:30">13:30</time>
                 </div>
                 <div className="event-title">
                     <h5>The Friday Lunch</h5>
@@ -177,7 +177,7 @@ const Events = () => (
             </div>
             <div className="event-day__entry-odd">
                 <div className="event-time">
-                    <time datetime="2000-01-11T13:00:00">09:30</time> - <time datetime="2000-01-11T13:00:00">10:30</time>
+                    <time datetime="09:30">09:30</time> - <time datetime="10:30">10:30</time>
                 </div>
                 <div className="event-title">
                     <h5>Zum Dance</h5>
