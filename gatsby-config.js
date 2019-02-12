@@ -38,5 +38,24 @@ module.exports = {
     // 'gatsby-plugin-offline',
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
+    {
+        resolve: `gatsby-plugin-favicon`,
+        options: {
+          logo: "./src/images/favicon.png",
+
+          icons: {
+            android: true,
+            appleIcon: true,
+            appleStartup: true,
+            coast: false,
+            favicons: true,
+            firefox: true,
+            opengraph: false,
+            twitter: false,
+            yandex: false,
+            windows: false
+          }
+        }
+      }
   ],
 }
