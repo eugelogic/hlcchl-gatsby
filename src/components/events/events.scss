@@ -1,3 +1,5 @@
+@import '../style.scss';
+
 .events {
 
     &__entry-msg {
@@ -12,15 +14,15 @@
     .event-day {
 
         &__entry-even {
-            background-color: #f5f5f5;
+            background-color: $light-grey-bg;
         }
 
         &__entry-odd,
         &__entry-even {
             padding: 25px;
-            border-left: 1px solid #eee;
-            border-right: 1px solid #eee;
-            border-bottom: 1px solid #eee;
+            border-left: 1px solid $light-grey-border;
+            border-right: 1px solid $light-grey-border;
+            border-bottom: 1px solid $light-grey-border;
 
             h2 {
                 margin-bottom: 0px;

@@ -1,7 +1,9 @@
+@import '../style.scss';
+
 .green {
     color: white;
-    background-color: #189960;
-    border:1px solid #189960;
+    background-color: $green-brand;
+    border:1px solid $green-brand;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 5px;
@@ -9,9 +11,9 @@
 
     &:hover,
     &:focus {
-        color: #189960;
+        color: $green-brand;
         background-color: white;
-        border:1px solid #189960;
+        border:1px solid $green-brand;
     }
 
     &--sm {
@@ -23,9 +25,9 @@
 }
 
 .white {
-    color: #189960;
+    color: $green-brand;
     background-color: white;
-    border:1px solid #189960;
+    border:1px solid $green-brand;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 5px;
@@ -34,7 +36,7 @@
     &:hover,
     &:focus {
         color: white;
-        background-color: #189960;
+        background-color: $green-brand;
     }
 
 }

@@ -1,9 +1,11 @@
+@import '../style.scss';
+
 .homepage-hero {
     background-image: url("../../images/Holly-Lodge-Community-Centre-homepage-hero-bg.jpg");
     background-position: center;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-color: #189960;
+    background-color: $green-brand;
     display: flex;
     flex-direction: column;
     justify-content: center;

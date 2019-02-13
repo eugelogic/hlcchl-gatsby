@@ -1,5 +1,7 @@
+@import '../style.scss';
+
 .homepage-content {
-    background-color: #eee;
+    background-color: $light-grey-bg;
     text-align: center;
     padding: 70px 0;
 
