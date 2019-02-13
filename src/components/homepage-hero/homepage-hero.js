@@ -1,5 +1,4 @@
 import React from 'react'
-import '../style.css'
 import './homepage-hero.scss'
 import Button from '../button/button'
 

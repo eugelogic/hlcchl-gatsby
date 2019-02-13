@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import '../style.css'
 import './menu.scss'
 
 export default class Menu extends Component {

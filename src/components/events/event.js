@@ -1,5 +1,4 @@
 import React from 'react'
-import '../style.css'
 import './events.scss'
 
 const Event = ({ bg, timeStart, timeEnd, title, cost, venue, venueLink, children }) => (
