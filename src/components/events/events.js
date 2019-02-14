@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import DOWBar from './dow-bar'
+import DOWBar from '../dow-bar/dow-bar'
 import Event from '../event/event'
 import './events.scss'
 import '../event/event.scss'
