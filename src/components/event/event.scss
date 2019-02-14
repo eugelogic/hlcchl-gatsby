@@ -1,0 +1,36 @@
+@import '../style.scss';
+
+.event {
+
+    &__entry-even {
+        background-color: $light-grey-bg;
+    }
+
+    &__entry-odd,
+    &__entry-even {
+        padding: 25px;
+        border-left: 1px solid $light-grey-border;
+        border-right: 1px solid $light-grey-border;
+        border-bottom: 1px solid $light-grey-border;
+
+        h2 {
+            margin-bottom: 0px;
+            text-transform: capitalize !important;
+            font-weight: bold;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+    }
+
+    &__location {
+        font-weight: bold;
+    }
+
+    &__description p {
+        margin-bottom: 0px;
+    }
+
+}

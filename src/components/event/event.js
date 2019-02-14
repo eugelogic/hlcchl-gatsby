@@ -1,21 +1,21 @@
 import React from 'react'
-import './events.scss'
+import './event.scss'
 
 const Event = ({ bg, timeStart, timeEnd, title, cost, venue, venueLink, children }) => (
-    <article className={bg}>
-        <div className="event-time">
+    <article className={`event__${bg}`}>
+        <div>
             <time datetime={timeStart}>{timeStart}</time> - <time datetime={timeEnd}>{timeEnd}</time>
         </div>
-        <div className="event-title">
+        <div className="event__title">
             <h2>{title}</h2>
         </div>
-        <div className="single-event__price">
+        <div>
             <p>Cost: {cost}</p>
         </div>
-        <div className="single-event__location">
+        <div className="event__location">
             <p>Venue: {venue} - [<a href={venueLink} target='_blank' rel='noopener noreferrer'>see on the map</a>]</p>
         </div>
-        <div className="event-description">
+        <div className="event__description">
             {children}
         </div>
     </article>

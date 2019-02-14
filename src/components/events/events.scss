@@ -11,41 +11,6 @@
         text-transform: uppercase;
     }
 
-    .event-day {
-
-        &__entry-even {
-            background-color: $light-grey-bg;
-        }
-
-        &__entry-odd,
-        &__entry-even {
-            padding: 25px;
-            border-left: 1px solid $light-grey-border;
-            border-right: 1px solid $light-grey-border;
-            border-bottom: 1px solid $light-grey-border;
-
-            h2 {
-                margin-bottom: 0px;
-                text-transform: none;
-                font-weight: bold;
-            }
-
-            p:last-child {
-                margin-bottom: 10px;
-            }
-
-        }
-
-        .single-event__location {
-            font-weight: bold;
-        }
-
-        .event-description p {
-            margin-bottom: 0px;
-        }
-
-    }
-
     &__specials {
         padding-top: 40px;
     }
