@@ -1,10 +1,12 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
 import LayoutPage from '../components/layout-page/layout-page'
 import Button from '../components/button/button'
 import SEO from '../components/seo'
 
-const SupportUsPage = () => (
+const SupportUsPage = ({ data }) => (
   <LayoutPage pageTitle="Support Us">
     <SEO title="Support Us" />
     <h2>Financial Donations</h2>
@@ -24,7 +26,7 @@ const SupportUsPage = () => (
     </div>
 
     <figure>
-        <img src={require("../images/Holly-Lodge-Community-Centre-party-time.jpg")} alt="Holly-Lodge-Community-Centre-party-time" />
+        <Img fluid={data.imageOne.childImageSharp.fluid} alt="Holly-Lodge-Community-Centre-party-time" />
     </figure>
 
     <hr />
@@ -44,3 +46,14 @@ const SupportUsPage = () => (
 )
 
 export default SupportUsPage
+
+export const query = graphql`
+query {
+    imageOne: file(relativePath: {eq: "Holly-Lodge-Community-Centre-party-time.jpg"}) {
+        childImageSharp {
+            fluid (maxWidth: 740) {
+                ...GatsbyImageSharpFluid
+            }
+        }
+    }
+}`

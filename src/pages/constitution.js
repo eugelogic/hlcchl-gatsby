@@ -1,9 +1,11 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+import Img from "gatsby-image"
 
 import LayoutPage from '../components/layout-page/layout-page'
 import SEO from '../components/seo'
 
-const ConstitutionPage = () => (
+const ConstitutionPage = ({ data }) => (
   <LayoutPage pageTitle="Constitution">
     <SEO title="Constitution" />
     <p>Constitution for the Management Committee of the Holly Lodge Community Association [HLCA]</p>
@@ -106,8 +108,8 @@ const ConstitutionPage = () => (
     <p>Date 13/11/13</p>
     <p>Signed<br />
     Barbara Smith</p>
-    <figure style={{ maxWidth: 200 }}>
-        <img src={require("../images/B.I.Smith-signature.jpg")} alt="B.I.Smith-signature" />
+    <figure>
+        <Img fixed={data.imageOne.childImageSharp.fixed} alt="B.I.Smith-signature" />
     </figure>
     <p>Position: Chair</p>
     <hr />
@@ -127,3 +129,15 @@ const ConstitutionPage = () => (
 )
 
 export default ConstitutionPage
+
+export const query = graphql`
+query {
+    imageOne: file(relativePath: {eq: "B.I.Smith-signature.jpg"}) {
+        childImageSharp {
+            fixed(width: 200) {
+                ...GatsbyImageSharpFixed
+            }
+        }
+    }
+}
+`

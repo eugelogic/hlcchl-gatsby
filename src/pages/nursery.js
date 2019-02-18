@@ -1,9 +1,10 @@
 import React from 'react'
+import Img from 'gatsby-image'
 
 import LayoutPage from '../components/layout-page/layout-page'
 import SEO from '../components/seo'
 
-const NurseryPage = () => (
+const NurseryPage = ({ data }) => (
   <LayoutPage pageTitle="Nursery">
     <SEO title="Nursery" />
 
@@ -17,10 +18,22 @@ const NurseryPage = () => (
         Email: <a href="mailto:liz@qcca.org.uk">liz@qcca.org.uk</a></p>
 
     <figure>
-        <img src={require("../images/Holly-Lodge-Community-Centre-Nursery.jpg")} alt="Holly-Lodge-Community-Centre-Nursery" />
+        <Img fluid={data.imageOne.childImageSharp.fluid} alt="Holly-Lodge-Community-Centre-Nursery"/>
     </figure>
 
   </LayoutPage>
 )
 
 export default NurseryPage
+
+export const query = graphql`
+query {
+    imageOne: file(relativePath: {eq: "Holly-Lodge-Community-Centre-Nursery.jpg"}) {
+        childImageSharp {
+            fluid(maxWidth: 740) {
+                ...GatsbyImageSharpFluid
+            }
+        }
+    }
+}
+`

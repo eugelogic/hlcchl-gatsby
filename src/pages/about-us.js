@@ -1,10 +1,12 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import { Link } from 'gatsby'
+import Img from "gatsby-image"
 
 import LayoutPage from '../components/layout-page/layout-page'
 import SEO from '../components/seo'
 
-const AboutUsPage = () => (
+const AboutUsPage = ({ data }) => (
   <LayoutPage pageTitle="About Us">
     <SEO title="About Us" />
 
@@ -16,7 +18,7 @@ const AboutUsPage = () => (
         <li>the Nursery, located one street away in Oakeshott Avenue.</li>
     </ul>
     <figure>
-        <img src={require("../images/Holly-Lodge-Community-Centre-building.jpg")} alt="Holly-Lodge-Community-Centre-building" />
+        <Img fluid={data.imageOne.childImageSharp.fluid} alt="Holly-Lodge-Community-Centre-building" />
     </figure>
 
     <mark>add Google map here ...</mark>
@@ -31,7 +33,7 @@ const AboutUsPage = () => (
     <p>This history, along with the beautiful environment and amazing views over London, makes Holly Lodge a popular point of interest on historical walks.</p>
     <p>The building housing the community centre stands on the site of what once was the restaurant pavilion. The Holly Lodge Estate is now home to a vibrant mix of tenants, and house and flat owners, who make up an engaged and thriving local community.</p>
     <figure>
-        <img src={require("../images/Holly-Lodge-Community-Centre-restaurant-and-lounge.jpg")} alt="Holly-Lodge-Community-Centre-restaurant-and-lounge" />
+        <Img fluid={data.imageTwo.childImageSharp.fluid} alt="Holly-Lodge-Community-Centre-restaurant-and-lounge" />
     </figure>
 
     <hr />
@@ -71,3 +73,22 @@ const AboutUsPage = () => (
 )
 
 export default AboutUsPage
+
+export const query = graphql`
+query {
+    imageOne: file(relativePath: {eq: "Holly-Lodge-Community-Centre-building.jpg"}) {
+        childImageSharp {
+            fluid(maxWidth: 740) {
+                ...GatsbyImageSharpFluid
+            }
+        }
+    }
+    imageTwo: file(relativePath: {eq: "Holly-Lodge-Community-Centre-restaurant-and-lounge.jpg"}) {
+        childImageSharp {
+            fluid(maxWidth: 740) {
+                ...GatsbyImageSharpFluid
+            }
+        }
+    }
+}
+`
