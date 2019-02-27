@@ -12,7 +12,7 @@ const GalleryImg = function (props) {
       query={graphql`
         query {
           images: allFile(
-            filter: { extension: { regex: "/jpeg|jpg|png|gif/" } }
+            filter: { extension: { regex: "/jpeg|jpg|png/" } }
           ) {
             edges {
               node {
