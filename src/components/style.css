@@ -621,3 +621,28 @@ pre tt:after {
 .page-btn {
     margin-bottom: 40px;
 }
+
+.two-col-gallery-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gatsby-image-wrapper {
+    flex: 0 0 49%;
+    max-width: 49%;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 480px) {
+
+    .two-col-gallery-grid {
+        display: block;
+    }
+
+    .gatsby-image-wrapper {
+        max-width: none;
+    }
+
+}
