@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import GalleryImg from '../components/gallery-img'
 import LayoutPage from '../components/layout-page/layout-page'
 import SEO from '../components/seo'
 
@@ -25,9 +25,22 @@ const HallHirePage = () => (
     </ul>
     <p>Note: No loud amplified music is permitted as the hall is below sheltered accommodation. Gentle music is allowed.</p>
     <p>Please <Link to="/terms-of-hire">see our Terms of Hire</Link> for more information.</p>
+
     <hr />
+
     <h2 className="center">Hall Hire Gallery</h2>
-    <mark>image grid to go here ...</mark>
+
+    <div className="two-col-gallery-grid">
+        <GalleryImg src={`HLCCHL-Hall-Hire-1.jpg`} />
+        <GalleryImg src={`HLCCHL-Hall-Hire-2.jpg`} />
+        <GalleryImg src={`HLCCHL-Hall-Hire-3.jpg`} />
+        <GalleryImg src={`HLCCHL-Hall-Hire-4.jpg`} />
+        <GalleryImg src={`HLCCHL-Hall-Hire-9.jpg`} />
+        <GalleryImg src={`HLCCHL-Hall-Hire-6.jpg`} />
+        <GalleryImg src={`HLCCHL-Hall-Hire-7.jpg`} />
+        <GalleryImg src={`HLCCHL-Hall-Hire-8.jpeg`} />
+    </div>
+
   </LayoutPage>
 )
 
