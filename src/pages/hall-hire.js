@@ -35,7 +35,7 @@ const HallHirePage = () => (
         <GalleryImg src={`HLCCHL-Hall-Hire-2.jpg`} />
         <GalleryImg src={`HLCCHL-Hall-Hire-3.jpg`} />
         <GalleryImg src={`HLCCHL-Hall-Hire-4.jpg`} />
-        <GalleryImg src={`HLCCHL-Hall-Hire-9.jpg`} />
+        <GalleryImg src={`HLCCHL-Hall-Hire-5.jpg`} />
         <GalleryImg src={`HLCCHL-Hall-Hire-6.jpg`} />
         <GalleryImg src={`HLCCHL-Hall-Hire-7.jpg`} />
         <GalleryImg src={`HLCCHL-Hall-Hire-8.jpeg`} />
