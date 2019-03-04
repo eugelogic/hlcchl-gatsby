@@ -31,14 +31,14 @@ const HallHirePage = () => (
     <h2 className="center">Hall Hire Gallery</h2>
 
     <div className="two-col-gallery-grid">
-        <GalleryImg src={`HLCCHL-Hall-Hire-1.jpg`} />
-        <GalleryImg src={`HLCCHL-Hall-Hire-2.jpg`} />
-        <GalleryImg src={`HLCCHL-Hall-Hire-3.jpg`} />
-        <GalleryImg src={`HLCCHL-Hall-Hire-4.jpg`} />
-        <GalleryImg src={`HLCCHL-Hall-Hire-5.jpg`} />
-        <GalleryImg src={`HLCCHL-Hall-Hire-6.jpg`} />
-        <GalleryImg src={`HLCCHL-Hall-Hire-7.jpg`} />
-        <GalleryImg src={`HLCCHL-Hall-Hire-8.jpeg`} />
+        <GalleryImg src={`HLCCHL-Hall-Hire-1.jpg`} layout="two-col-gallery-image-wrapper"/>
+        <GalleryImg src={`HLCCHL-Hall-Hire-2.jpg`} layout="two-col-gallery-image-wrapper"/>
+        <GalleryImg src={`HLCCHL-Hall-Hire-3.jpg`} layout="two-col-gallery-image-wrapper"/>
+        <GalleryImg src={`HLCCHL-Hall-Hire-4.jpg`} layout="two-col-gallery-image-wrapper"/>
+        <GalleryImg src={`HLCCHL-Hall-Hire-5.jpg`} layout="two-col-gallery-image-wrapper"/>
+        <GalleryImg src={`HLCCHL-Hall-Hire-6.jpg`} layout="two-col-gallery-image-wrapper"/>
+        <GalleryImg src={`HLCCHL-Hall-Hire-7.jpg`} layout="two-col-gallery-image-wrapper"/>
+        <GalleryImg src={`HLCCHL-Hall-Hire-8.jpeg`} layout="two-col-gallery-image-wrapper"/>
     </div>
 
   </LayoutPage>

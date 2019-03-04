@@ -28,12 +28,12 @@ const GalleryImg = function (props) {
           }
         }
       `}
-      render={({ images }) => {
+      render={({ images, layout }) => {
         const image = images.edges.find(image => image.node.relativePath === props.src);
         if (!image) {
           return <div style={{ color: `red` }}>Cannot find image: {props.src}</div>;
         }
-        return renderImage(image);
+        return <div className={props.layout}>{renderImage(image)}</div>;
       }}
     />
   )

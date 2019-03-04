@@ -629,7 +629,7 @@ pre tt:after {
     flex-wrap: wrap;
 }
 
-.gatsby-image-wrapper {
+.two-col-gallery-image-wrapper {
     flex: 0 0 49%;
     max-width: 49%;
     margin-bottom: 2%;
@@ -641,7 +641,7 @@ pre tt:after {
         display: block;
     }
 
-    .gatsby-image-wrapper {
+    .two-col-gallery-image-wrapper {
         max-width: none;
     }
 
