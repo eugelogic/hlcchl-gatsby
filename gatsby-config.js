@@ -37,25 +37,37 @@ module.exports = {
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
     `gatsby-plugin-sass`,
-    `gatsby-transformer-remark`,
+    {
+        resolve: `gatsby-transformer-remark`,
+        options: {
+            plugins: [
+                {
+                    resolve: `gatsby-remark-images`,
+                    options: {
+                        maxWidth: 740,
+                        linkImagesToOriginal: false,
+                    },
+                },
+            ],
+        },
+    },
     {
         resolve: `gatsby-plugin-favicon`,
         options: {
           logo: "./src/images/favicon.png",
-
           icons: {
-            android: true,
-            appleIcon: true,
-            appleStartup: true,
-            coast: false,
-            favicons: true,
-            firefox: true,
-            opengraph: false,
-            twitter: false,
-            yandex: false,
-            windows: false
-          }
-        }
-      }
-  ],
+              android: true,
+              appleIcon: true,
+              appleStartup: true,
+              coast: false,
+              favicons: true,
+              firefox: true,
+              opengraph: false,
+              twitter: false,
+              yandex: false,
+              windows: false
+            },
+        },
+    },
+],
 }

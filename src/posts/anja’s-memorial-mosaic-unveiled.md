@@ -6,9 +6,9 @@ category: News
 
 Today, in a glorious summer day, Anja’s memorial mosaic was finally unveiled just outside the Community Centre.
 
-Here are some pictures showing our volunteers applying the final touches.
+![Anjas Mosaic Memorial Unveiled](../images/Anjas-Mosaic-Memorial-Unveiled.jpeg)
 
-<span style="background-color: #FFFF00">... add images here ...</span>
+[Our Gallery shows pictures of our volunteers applying the final touches](/gallery).
 
 To put the mosaic into context, a small plaque with some of the children’s writings about the time spent with Anja will be added soon, as well as more smaller pieces of mosaic, watch this space.
 
