@@ -31,15 +31,15 @@ const ContactUsPage = () => (
                     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                 </p>
                 <p>
-                    <label>Your Name:</label><br />
-                    <input type="text" name="name" />
+                    <label>Your Name*</label><br />
+                    <input type="text" name="name" required="required" />
                 </p>
                 <p>
-                    <label>Your Email:</label><br />
-                    <input type="email" name="email" />
+                    <label>Your Email*</label><br />
+                    <input type="email" name="email" required="required" />
                 </p>
                 <p>
-                    <label>Subject:</label><br />
+                    <label>Subject</label><br />
                     <input type="text" name="subject" />
                 </p>
                 <p>
@@ -47,8 +47,9 @@ const ContactUsPage = () => (
                     <input type="text" name="conversion" />
                 </p>
                 <p>
-                    <label>Your Message:</label><br />
-                    <textarea name="message" rows="5"></textarea>
+                    <label>Your Message*</label><br />
+                    <textarea name="message" rows="5" maxlength="750" required="required" ></textarea>
+                    <small>* = required field</small>
                 </p>
                 <p>
                     <button className="green" type="submit">Send</button>
