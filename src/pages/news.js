@@ -5,7 +5,6 @@ import LayoutPage from '../components/layout-page/layout-page'
 import SEO from '../components/seo'
 
 export default ({ data }) => {
-  console.log(data)
   return (
     <LayoutPage pageTitle="News">
         <SEO title="News" />
