@@ -22,7 +22,7 @@ const SupportUsPage = ({ data }) => (
     <h3>Donate via post</h3>
     <p>If you prefer to make your donation via post, please download, fill in and post the direct debit form which you can access by clicking the button below.</p>
     <div className="page-btn">
-        <Button link="/support-us/#top" color="white">Download Form</Button>
+        <Button link="/Holly-Lodge-Community-Centre-donation-form.docx" color="white">Download Form</Button>
     </div>
 
     <figure>
