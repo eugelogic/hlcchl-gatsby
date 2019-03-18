@@ -1,6 +1,7 @@
 import React from 'react'
 
 import LayoutPage from '../components/layout-page/layout-page'
+import Button from '../components/button/button'
 import SEO from '../components/seo'
 
 const ContactUsPage = () => (
@@ -52,7 +53,7 @@ const ContactUsPage = () => (
                     <small>* = required field</small>
                 </p>
                 <p>
-                    <button className="green" type="submit">Send</button>
+                    <Button type="submit" color="green-btn">Send</Button>
                 </p>
             </form>
         </div>

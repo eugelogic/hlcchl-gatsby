@@ -1,9 +1,9 @@
 @import '../style.scss';
 
-.green {
+.green-btn {
     color: white;
     background-color: $green-brand;
-    border:1px solid $green-brand;
+    border: 1px solid $green-brand;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 5px;
@@ -13,7 +13,7 @@
     &:focus {
         color: $green-brand;
         background-color: white;
-        border:1px solid $green-brand;
+        border: 1px solid $green-brand;
     }
 
     &--sm {
@@ -24,10 +24,10 @@
 
 }
 
-.white {
+.white-btn {
     color: $green-brand;
     background-color: white;
-    border:1px solid $green-brand;
+    border: 1px solid $green-brand;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 5px;

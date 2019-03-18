@@ -22,7 +22,7 @@ const HomepageCards = () => (
             </div>
 
             <div className="card__btn">
-                <Button link="/whats-on/" color="green">Whats On</Button>
+                <Button link="/whats-on/" color="green-btn">Whats On</Button>
             </div>
 
         </div>{/* end of card */}
@@ -41,7 +41,7 @@ const HomepageCards = () => (
             </div>
 
             <div className="card__btn">
-                <Button link="/contact-us/" color="green">Join Us</Button>
+                <Button link="/contact-us/" color="green-btn">Join Us</Button>
             </div>
 
         </div>{/* end of card */}
@@ -60,7 +60,7 @@ const HomepageCards = () => (
             </div>
 
             <div className="card__btn">
-                <Button link="/hall-hire/" color="green">Hall Hire</Button>
+                <Button link="/hall-hire/" color="green-btn">Hall Hire</Button>
             </div>
 
         </div>{/* end of card */}

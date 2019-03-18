@@ -51,6 +51,23 @@
             margin-right: 40px;
         }
 
+        .btn-green {
+
+            &:hover,
+            &:focus {
+                border: 1px solid white;
+            }
+        }
+
+        .btn-white {
+            border: 1px solid white;
+
+            &:hover,
+            &:focus {
+                border: 1px solid $green-brand;
+            }
+        }
+
     }
 
 }

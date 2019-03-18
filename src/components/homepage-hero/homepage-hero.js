@@ -18,8 +18,8 @@ const HomepageHero = () => (
     </div>
 
     <div className="homepage-hero__btn-group">
-      <Button link="/whats-on/" color="green">Whats On</Button>
-      <Button link="/support-us/" color="white">Support Us</Button>
+      <Button link="/whats-on/" color="green-btn btn-green">Whats On</Button>
+      <Button link="/support-us/" color="white-btn btn-white">Support Us</Button>
     </div>
   </div>
 )
