@@ -67,4 +67,4 @@ Re: Funds to access from Camden Council, Barbara applied for them.  Alicia Pivar
 ACTION
 Barbara to follow this up and chase after her.
 
-[Click to download a copy](#)
+[DOWNLOAD A COPY](/Minutes-of-the-HLCC-committee-June-2018.docx)

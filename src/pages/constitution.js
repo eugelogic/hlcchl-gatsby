@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Img from "gatsby-image"
 
 import LayoutPage from '../components/layout-page/layout-page'
+import Button from '../components/button/button'
 import SEO from '../components/seo'
 
 const ConstitutionPage = ({ data }) => (
@@ -124,7 +125,9 @@ const ConstitutionPage = ({ data }) => (
     </ol>
     <p>Signed:<br />
     Dated:</p>
-    <p><a href="#top">[Download a copy here]</a></p>
+    <div className="page-btn center">
+        <Button type="a" href="/Holly-Lodge-Community-Association-constitution.doc" className="green-btn">Download a copy</Button>
+    </div>
   </LayoutPage>
 )
 

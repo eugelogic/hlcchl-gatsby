@@ -39,4 +39,4 @@ TRA is launching a new website and eventually will have a link to the HLCC
 The meeting ended at 8.30pm and the next meeting was called for either the 11th or the 13th September 2017.
 These Minutes were written by Anne Holve (Trustee HLCC).
 
-[Download a copy here](#)
+[DOWNLOAD A COPY](/minutes-for-website-July-2017.docx)
