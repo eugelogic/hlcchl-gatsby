@@ -622,31 +622,6 @@ pre tt:after {
     margin: 40px 0;
 }
 
-.two-col-gallery-grid {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.two-col-gallery-image-wrapper {
-    flex: 0 0 49%;
-    max-width: 49%;
-    margin-bottom: 2%;
-}
-
-@media screen and (max-width: 480px) {
-
-    .two-col-gallery-grid {
-        display: block;
-    }
-
-    .two-col-gallery-image-wrapper {
-        max-width: none;
-    }
-
-}
-
 label {
     font-size: 90%;
 }
