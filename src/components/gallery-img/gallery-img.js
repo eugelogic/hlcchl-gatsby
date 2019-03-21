@@ -1,4 +1,5 @@
 import React from 'react'
+import './gallery-img.scss'
 import Img from 'gatsby-image'
 import { StaticQuery, graphql } from 'gatsby'
 
