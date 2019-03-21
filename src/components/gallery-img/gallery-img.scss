@@ -15,7 +15,7 @@
 .three-col-gallery-image-wrapper {
   flex: 0 0 32%;
   max-width: 32%;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 @media screen and (max-width: 480px) {
@@ -25,7 +25,8 @@
       display: block;
   }
 
-  .two-col-gallery-image-wrapper {
+  .two-col-gallery-image-wrapper,
+  .three-col-gallery-image-wrapper {
       max-width: none;
   }
 
