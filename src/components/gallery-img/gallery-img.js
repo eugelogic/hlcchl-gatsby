@@ -21,7 +21,7 @@ const GalleryImg = function (props) {
                 relativePath
                 childImageSharp {
                   fluid(maxWidth: 350) {
-                    ...GatsbyImageSharpFluid
+                    ...GatsbyImageSharpFluid_withWebp
                   }
                 }
               }

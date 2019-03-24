@@ -79,14 +79,14 @@ query {
     imageOne: file(relativePath: {eq: "Holly-Lodge-Community-Centre-building.jpg"}) {
         childImageSharp {
             fluid(maxWidth: 740) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
             }
         }
     }
     imageTwo: file(relativePath: {eq: "Holly-Lodge-Community-Centre-restaurant-and-lounge.jpg"}) {
         childImageSharp {
             fluid(maxWidth: 740) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
             }
         }
     }

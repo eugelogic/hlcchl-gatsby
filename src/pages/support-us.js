@@ -52,7 +52,7 @@ query {
     imageOne: file(relativePath: {eq: "Holly-Lodge-Community-Centre-party-time.jpg"}) {
         childImageSharp {
             fluid (maxWidth: 740) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
             }
         }
     }
