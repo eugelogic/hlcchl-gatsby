@@ -95,12 +95,12 @@ const Events = () => (
             bg="entry-even"
             timeStart="19:15"
             timeEnd="20:30"
-            title="Yoga with Annie Rigby"
+            title="Yoga with Steven Gould"
             cost="free"
             venue="The Holly Lodge Community Centre"
             venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
         >
-        <p>Contact Annie on <a href="tel:07971921029">07971 921029</a>, email her at <a href="mailto:annierigby@blueyonder.co.uk">annierigby@blueyonder.co.uk</a> or visit the website <a href="https://yogayo.weebly.com/" target="_blank" rel="noopener noreferrer">yogayo.weebly.com</a></p>
+        <p>Contact Steven on <a href="tel:07891581166">07891 581 166</a> or email him at <a href="mailto:angleshade@gmail.com">angleshade@gmail.com</a></p>
         </Event>
 
     <DOWBar>Fridays</DOWBar>

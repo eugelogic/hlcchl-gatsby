@@ -18,7 +18,7 @@ const HomepageCards = () => (
             </div>
 
             <div className="card__copy">
-                <p>Come participate in one of our many activities. Among our current class offerings you’ll find Judo, yoga, and art. Attend WI and other local meetings, as well as a variety of other events. Have a look at our calendar to find out what’s on, and when.</p>
+                <p>Come participate in one of our many activities. Among our current class offerings you’ll find Judo, yoga, and art. Attend local meetings, as well as a variety of other events. Have a look at our calendar to find out what’s on, and when.</p>
             </div>
 
             <div className="card__btn">
