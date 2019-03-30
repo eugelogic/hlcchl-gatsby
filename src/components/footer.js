@@ -21,10 +21,14 @@ const Footer = () => (
        }}>
         <p style={{ marginBottom: `5px` }}>Holly Lodge Community Centre is a registered charity 293003 2013-2017</p>
         <p style={{ marginBottom: 0 }}>
-            © {new Date().getFullYear()}, Built with
+            {new Date().getFullYear()} - Website crafted by <a style={{ color: `#8c8989` }} href="https://twitter.com/EugeneMolari" target="_black">
+                WebJigsaw
+            </a> with
             {` `}
             <a style={{ color: `#8c8989` }} href="https://www.gatsbyjs.org" target="_black">
                 Gatsby
+            </a> and kindly hosted on <a style={{ color: `#8c8989` }} href="https://www.netlify.com/" target="_black">
+                Netlify
             </a>
         </p>
       </footer>
