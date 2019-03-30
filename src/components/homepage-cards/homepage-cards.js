@@ -10,7 +10,7 @@ const HomepageCards = () => (
         <div className="card">
 
             <figure>
-                <img src={require("../../images/Holly-Lodge-Community-Centre-activities.jpg")} alt="Holly-Lodge-Community-Centre-activities" />
+                <img src={require("../../images/Holly-Lodge-Community-Centre-Hall-Hire.jpg")} alt="Holly-Lodge-Community-Centre-Activities" />
             </figure>
 
             <div className="card__title">
@@ -48,7 +48,7 @@ const HomepageCards = () => (
         <div className="card">
 
             <figure>
-                <img src={require("../../images/Holly-Lodge-Community-Centre-Hall-Hire.jpg")} alt="Holly-Lodge-Community-Centre-Hall-Hire" />
+                <img src={require("../../images/HLCCHL-Hall-Hire-1.jpg")} alt="Holly-Lodge-Community-Centre-Hall-Hire" />
             </figure>
 
             <div className="card__title">
