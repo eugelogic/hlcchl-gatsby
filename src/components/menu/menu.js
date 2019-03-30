@@ -18,7 +18,7 @@ export default class Menu extends Component {
     render() {
         return (
             <div className="menu-container">
-                <button onClick={this.toggleNav.bind(this)}>{this.state.menuIsOpen ? `X Menu` : `Menu`}</button>
+                <button onClick={this.toggleNav.bind(this)}>{this.state.menuIsOpen ? `X Close Menu` : `Menu`}</button>
                 <nav style={{ display: this.state.menuIsOpen ? 'block' : 'none' }}>
                     <li>
                         <Link to="/">Homepage</Link>
