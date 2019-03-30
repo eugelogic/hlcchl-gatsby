@@ -21,9 +21,7 @@ const AboutUsPage = ({ data }) => (
         <Img fluid={data.imageOne.childImageSharp.fluid} alt="Holly-Lodge-Community-Centre-building" />
     </figure>
 
-    <mark>add Google map here ...</mark>
-    <br />
-    <br />
+    <p><a href="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852" target='_blank' rel='noopener noreferrer'>Find us on Google Maps.</a></p>
 
     <hr />
     <h2>Holly Lodge History</h2>
