@@ -39,7 +39,6 @@ const AboutUsPage = ({ data }) => (
     <p>The Holly Lodge Community Centre is registered charity, run by volunteers, and managed by a Board of Trustees:</p>
     <ol>
         <li>Chair: Barbara Smith</li>
-        <li>Vice Chair: Felicitas Grabe</li>
         <li>Treasurer: Hertha Koettner-Smith</li>
         <li>Committee Member: Elizabeth Doherty</li>
         <li>Committee Member: Camilla Scaramanger</li>
@@ -47,6 +46,7 @@ const AboutUsPage = ({ data }) => (
         <li>Committee Member: Josh Cedar</li>
         <li>Committee Member: Grace Livingston</li>
         <li>Committee Member: Anne Holve</li>
+        <li>Committee Member: Roger Elliott</li>
     </ol>
 
     <hr />
