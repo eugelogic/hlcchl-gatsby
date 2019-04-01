@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "hlcchl-gatsby",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "HLCCHL website built with the awesome Gatsby.js",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Eugene Molari https://twitter.com/EugeneMolari",
   "dependencies": {
     "gatsby": "^2.0.88",
     "gatsby-image": "^2.0.20",
@@ -40,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/eugelogic/hlcchl-gatsby"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/eugelogic/hlcchl-gatsby/issues"
   }
 }
