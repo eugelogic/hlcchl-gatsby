@@ -5,7 +5,7 @@ import '../../components/style.css'
 import Header from '../../components/header'
 import Menu from '../../components/menu/menu'
 import Footer from '../../components/footer'
-
+import CookieConsent from "react-cookie-consent";
 import './news-post.scss'
 
 export default ({ data }) => {
@@ -23,6 +23,12 @@ export default ({ data }) => {
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
         <Footer />
+        <CookieConsent
+          cookieName="HLCCHL-CookieConsent"
+          style={{ background: "#439de6" }}
+        >
+          This website uses <a href="/cookies/">cookies</a> to enhance the user experience.
+        </CookieConsent>
     </>
   )
 }
