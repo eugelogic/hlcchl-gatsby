@@ -9,6 +9,7 @@ import HomepageHero from '../components/homepage-hero/homepage-hero'
 import HomepageContent from '../components/homepage-content/homepage-content'
 import HomepageCards from '../components/homepage-cards/homepage-cards'
 import Footer from './footer'
+import CookieConsent from "react-cookie-consent";
 import './style.css'
 
 const Layout = () => (
@@ -31,6 +32,12 @@ const Layout = () => (
         <HomepageContent />
         <HomepageCards />
         <Footer />
+        <CookieConsent
+          cookieName="HLCCHL-CookieConsent"
+          style={{ background: "#439de6" }}
+        >
+          This website uses <a href="/cookies/">cookies</a> to enhance the user experience.
+        </CookieConsent>
       </>
     )}
   />

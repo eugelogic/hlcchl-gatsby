@@ -6,6 +6,7 @@ import Header from '../header'
 import Menu from '../menu/menu'
 import PageTitle from '../page-title/page-title'
 import Footer from '../footer'
+import CookieConsent from "react-cookie-consent";
 import '../style.css'
 import './layout-page.scss'
 
@@ -29,6 +30,12 @@ const LayoutPage = ({ children,pageTitle }) => (
           {children}
         </div>
         <Footer />
+        <CookieConsent
+          cookieName="HLCCHL-CookieConsent"
+          style={{ background: "#439de6" }}
+        >
+          This website uses <a href="/cookies/">cookies</a> to enhance the user experience.
+        </CookieConsent>
       </>
     )}
   />
