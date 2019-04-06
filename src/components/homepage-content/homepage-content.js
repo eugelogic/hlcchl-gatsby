@@ -9,7 +9,7 @@ const HomepageContent = () => (
 
     <p>The HLCCHL will change its status to a Tenants and Residents Hall soon, associated with the HLRA.</p>
 
-    <a href="https://myhlra.org/" target="_blank" rel="noopener noreferrer">Click here to visit the Holly Lodge Residents Association’s website.</a>
+    <a href="https://myhlra.org/" target="_blank" rel="noopener noreferrer">Visit the Holly Lodge Residents Association’s website.</a>
 
     <hr />
 
