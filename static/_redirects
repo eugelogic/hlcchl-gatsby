@@ -1,0 +1,16 @@
+# Manually set redirects:
+# BROKEN                          # TARGET
+/events/                          /whats-on/
+/family-centre/	                  /nursery/
+/family-centre-page/	            /nursery/
+/family-centre-hall-hire/	        /nursery/
+/activities/	                    /whats-on/
+/terms-of-hire-cc/                /terms-of-hire/
+/terms-of-hire-community-centre/  /terms-of-hire/
+/recent-projects/	                /whats-on/
+/donate/	                        /support-us/
+/community-centre-hall-hire/      /hall-hire/
+/location/	                      /about-us/
+/upcoming-events/	                /whats-on/
+/hall-hire-2/	                    /hall-hire/
+/volunteer/	                      /support-us/
