@@ -21,40 +21,40 @@ export default class Menu extends Component {
                 <button onClick={this.toggleNav.bind(this)}>{this.state.menuIsOpen ? `X Close Menu` : `Menu`}</button>
                 <nav style={{ display: this.state.menuIsOpen ? 'block' : 'none' }}>
                     <li>
-                        <Link to="/">Homepage</Link>
+                        <Link to="/" activeClassName="active">Homepage</Link>
                     </li>
                     <li>
-                        <Link to="/whats-on">What's On</Link>
+                        <Link to="/whats-on" activeClassName="active">What's On</Link>
                     </li>
                     <li>
-                        <Link to="/hall-hire">Hall Hire</Link>
+                        <Link to="/hall-hire" activeClassName="active">Hall Hire</Link>
                     </li>
                     <li>
-                        <Link to="/news">News</Link>
+                        <Link to="/news" activeClassName="active">News</Link>
                     </li>
                     <li>
-                        <Link to="/nursery">Nursery</Link>
+                        <Link to="/nursery" activeClassName="active">Nursery</Link>
                     </li>
                     <li>
-                        <Link to="/gallery">Gallery</Link>
+                        <Link to="/gallery" activeClassName="active">Gallery</Link>
                     </li>
                     <li>
-                        <Link to="/local-contacts">Local Contacts</Link>
+                        <Link to="/local-contacts" activeClassName="active">Local Contacts</Link>
                     </li>
                     <li>
-                        <Link to="/about-us">About Us</Link>
+                        <Link to="/about-us" activeClassName="active">About Us</Link>
                     </li>
                     <li>
-                        <Link to="/constitution">Constitution</Link>
+                        <Link to="/constitution" activeClassName="active">Constitution</Link>
                     </li>
                     <li>
-                        <Link to="/support-us">Support Us</Link>
+                        <Link to="/support-us" activeClassName="active">Support Us</Link>
                     </li>
                     <li>
-                        <Link to="/contact-us">Contact Us</Link>
+                        <Link to="/contact-us" activeClassName="active">Contact Us</Link>
                     </li>
                     <li>
-                        <Link to="/cookies">Cookies</Link>
+                        <Link to="/cookies" activeClassName="active">Cookies</Link>
                     </li>
                 </nav>
             </div>
