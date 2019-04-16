@@ -75,6 +75,5 @@ module.exports = {
         trackingId: "UA-39423737-3",
       },
     },
-    `gatsby-plugin-netlify`, // make sure to keep last in the array
   ],
 }
