@@ -50,6 +50,13 @@ const AboutUsPage = ({ data }) => (
     </ol>
 
     <hr />
+    <h2>Local Contacts</h2>
+    <ul>
+        <li>Holly Lodge Estate Manager - Barbara Wheatley is the Estate manager and can answer queries on parking, security and other estate matters. <br />She and the Estate team are to be found in the hut at the top of the estate in Holly Lodge Gardens. <br />Email - <a href="mailto:manager@hle.org.uk">manager@hle.org.uk</a></li>
+        <li>Holly Lodge Residents Association - The HLRA represents all the residents of the Holly Lodge Estate mansion blocks, whether council tenants, leaseholders or private tenants. <br />They organise social events and other activities, as well as putting residents’ concerns to Camden Council and working with the Council to create solutions. They are officially recognised as a TRA (Tenants and Residents Association) by Camden Council and the Holly Lodge Community Centre is a part of this Association. <br />Website: <a href="https://myhlra.org/" target="_blank" rel="noopener noreferrer">myhlra.org</a>. <br />Email: <a href="mailto:hollylodgera@gmail.com">hollylodgera@gmail.com</a></li>
+    </ul>
+
+    <hr />
     <h2>Places of interest nearby:</h2>
     <ul>
         <li><a href="https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/Pages/default.aspx" target="_blank" rel="noopener noreferrer">Hampstead Heath</a></li>

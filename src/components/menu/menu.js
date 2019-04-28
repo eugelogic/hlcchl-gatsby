@@ -39,9 +39,6 @@ export default class Menu extends Component {
                         <Link to="/gallery" activeClassName="active">Gallery</Link>
                     </li>
                     <li>
-                        <Link to="/local-contacts" activeClassName="active">Local Contacts</Link>
-                    </li>
-                    <li>
                         <Link to="/about-us" activeClassName="active">About Us</Link>
                     </li>
                     <li>
