@@ -30,6 +30,9 @@ export default class Menu extends Component {
                         <Link to="/hall-hire" activeClassName="active">Hall Hire</Link>
                     </li>
                     <li>
+                        <Link to="/terms-of-hire" activeClassName="active">Hall Hire T&C</Link>
+                    </li>
+                    <li>
                         <Link to="/news" activeClassName="active">News</Link>
                     </li>
                     <li>
@@ -46,6 +49,9 @@ export default class Menu extends Component {
                     </li>
                     <li>
                         <Link to="/support-us" activeClassName="active">Support Us</Link>
+                    </li>
+                    <li>
+                        <a href="https://mydonate.bt.com/donation/v4/chooseAmount.html?charity=156907&currentMonth=1" target="_blank" rel="noopener noreferrer">Donate Online</a>
                     </li>
                     <li>
                         <Link to="/contact-us" activeClassName="active">Contact Us</Link>
