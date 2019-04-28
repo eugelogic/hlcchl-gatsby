@@ -53,6 +53,7 @@
         }
 
         .btn-green {
+            margin-right: 40px;
 
             &:hover,
             &:focus {
@@ -68,6 +69,20 @@
                 border: 1px solid $green-brand;
             }
         }
+
+        @media only screen and (max-width: 480px) {
+            flex-direction: column;
+
+                .btn-green,
+                .btn-white {
+                    margin: 0 0 25px 0;
+                }
+
+                *:last-child {
+                    margin-bottom: 0;
+                }
+
+          }
 
     }
 
