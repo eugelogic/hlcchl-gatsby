@@ -10,19 +10,19 @@ const HomepageCards = () => (
         <div className="card">
 
             <figure>
-                <img src={require("../../images/Holly-Lodge-Community-Centre-Hall-Hire.jpg")} alt="Holly-Lodge-Community-Centre-Activities" />
+                <img src={require("../../images/HLCCHL-Hall-Hire-1.jpg")} alt="Holly-Lodge-Community-Centre-Hall-Hire" />
             </figure>
 
             <div className="card__title">
-                <h3>Activities</h3>
+                <h3>Hall Hire</h3>
             </div>
 
             <div className="card__copy">
-                <p>Come participate in one of our many activities. Among our current class offerings you’ll find Judo, yoga, and art. Attend local meetings, as well as a variety of other events. Have a look at our calendar to find out what’s on, and when.</p>
+                <p>We have an attractive, newly refurbished space for hire, with a commercial style kitchen and a lovely terrace. If you would like to hold lectures, classes, workshops, seminars or meetings do get in touch. <strong>Unfortunately we are not hiring out the hall for parties.</strong></p>
             </div>
 
             <div className="card__btn">
-                <Button link="/whats-on/" color="green-btn">Whats On</Button>
+                <Button link="/hall-hire/" color="green-btn">Hall Hire</Button>
             </div>
 
         </div>{/* end of card */}
@@ -48,19 +48,19 @@ const HomepageCards = () => (
         <div className="card">
 
             <figure>
-                <img src={require("../../images/HLCCHL-Hall-Hire-1.jpg")} alt="Holly-Lodge-Community-Centre-Hall-Hire" />
+                <img src={require("../../images/Holly-Lodge-Community-Centre-Hall-Hire.jpg")} alt="Holly-Lodge-Community-Centre-Activities" />
             </figure>
 
             <div className="card__title">
-                <h3>Hall Hire</h3>
+                <h3>Activities</h3>
             </div>
 
             <div className="card__copy">
-                <p>We have an attractive, newly refurbished space for hire, with a commercial style kitchen and a lovely terrace. If you would like to hold lectures, classes, workshops, seminars or meetings do get in touch. <strong>Unfortunately we are not hiring out the hall for parties.</strong></p>
+                <p>Come participate in one of our many activities. Among our current class offerings you’ll find Judo, yoga, and art. Attend local meetings, as well as a variety of other events. Have a look at our calendar to find out what’s on, and when.</p>
             </div>
 
             <div className="card__btn">
-                <Button link="/hall-hire/" color="green-btn">Hall Hire</Button>
+                <Button link="/whats-on/" color="green-btn">Whats On</Button>
             </div>
 
         </div>{/* end of card */}
