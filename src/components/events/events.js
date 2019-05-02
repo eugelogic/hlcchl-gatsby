@@ -39,7 +39,7 @@ const Events = () => (
             timeStart="19:00"
             timeEnd="20:00"
             title="Judo"
-            cost="free"
+            cost="please contact class tutor direct"
             venue="The Holly Lodge Community Centre"
             venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
         >
@@ -58,7 +58,7 @@ const Events = () => (
             venue="The Holly Lodge Community Centre"
             venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
         >
-        <p>Class with Laura Holland specifically for cancer recoverers and survivors.</p>
+        <p>Class with Laura Holland specifically for cancer recoverers and survivors (sponsored by <a href='https://www.tottenhamhotspur.com/' target='_blank' rel='noopener noreferrer'>Tottenham Hotspur</a>).</p>
         <p>Call <a href="tel:07393149888">07393 149888</a> for more information.</p>
         </Event>
 
@@ -67,7 +67,7 @@ const Events = () => (
             timeStart="16:00"
             timeEnd="18:00"
             title="Kidsart – classes for children"
-            cost="free"
+            cost="please contact class tutor direct"
             venue="The Holly Lodge Community Centre"
             venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
         >
@@ -82,7 +82,7 @@ const Events = () => (
             timeStart="14:00"
             timeEnd="15:00"
             title="Yoga with Ad de Koning"
-            cost="free"
+            cost="please contact class tutor direct"
             venue="The Holly Lodge Community Centre"
             venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
         >
@@ -96,7 +96,7 @@ const Events = () => (
             timeStart="19:15"
             timeEnd="20:30"
             title="Yoga with Steven Gould"
-            cost="free"
+            cost="please contact class tutor direct"
             venue="The Holly Lodge Community Centre"
             venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
         >

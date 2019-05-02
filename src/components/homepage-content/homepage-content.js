@@ -7,7 +7,7 @@ const HomepageContent = () => (
 
     <h3>LATEST ANNOUNCEMENTS:</h3>
 
-    <p>The HLCCHL will change its status to a Tenants and Residents Hall soon, associated with the HLRA.</p>
+    <p>The HLCCHL is now a Tenants and Residents Hall, associated with the HLRA,<br />but still registered as Holly Lodge Community Centre.</p>
 
     <a href="https://myhlra.org/" target="_blank" rel="noopener noreferrer">Visit the Holly Lodge Residents Association’s website.</a>
 
