@@ -127,8 +127,8 @@ const Events = () => (
             venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
         >
         <p>Free film club, all welcome.</p>
+        <p><Link to="/film-club">View full listing on the Film Club page.</Link></p>
         <p>Email <a href="mailto:hollylodgelondon@hotmail.com">hollylodgelondon@hotmail</a> for more information.</p>
-        <p>For a full list of films shown, please <Link to="/film-club">see our dedicated Film Club page.</Link></p>
         </Event>
 
     <DOWBar>Saturdays</DOWBar>
