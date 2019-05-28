@@ -15,6 +15,12 @@ const FilmClubPage = () => (
     <p>“Funny Face” to complete Audrey Hepburn season.</p>
     <p><strong>14th of June @ 14:00</strong></p>
     <p>“Gentleman’s Agreement” starting Gregory Peck.</p>
+    <p><strong>28th of June @ 14:00</strong></p>
+    <p>“To Kill a Mockingbird” starring Gregory Peck.</p>
+    <p><strong>12th of July @ 14:00</strong></p>
+    <p>“How Green Was My Valley” starring Walter Pidgeon and Maureen O'Hara.</p>
+    <p><strong>26th of July @ 14:00</strong></p>
+    <p>“Guys and Dolls” starting Marlon Brando and Jean Simmons.</p>
     <p><strong>... more dates coming soon.</strong></p>
   </LayoutPage>
 )
