@@ -14,9 +14,9 @@ const SupportUsPage = ({ data }) => (
     <p>All donations are most welcome. Thank You!</p>
 
     <h3>Online Donation</h3>
-    <p>To make an online donation, please click on the button below. (This will take you to our donation page on the secure MyDonate site that BT runs to support fundraising for charities.)</p>
+    <p>To make an online donation, please click on the button below. (This will take you to our donation page on the secure Virgin Money Giving site that supports fundraising for charities.)</p>
     <div className="page-btn">
-        <Button type="a" link="https://mydonate.bt.com/donation/v4/chooseAmount.html?charity=156907&currentMonth=1" className="green-btn" target="_blank" rel="noopener noreferrer">Donate Online</Button>
+        <Button type="a" link="https://uk.virginmoneygiving.com/donation-web/charity?charityId=1017542&stop_mobi=yes" className="green-btn" target="_blank" rel="noopener noreferrer">Donate Online</Button>
     </div>
 
     <h3>Donate via post</h3>

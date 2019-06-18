@@ -51,7 +51,7 @@ export default class Menu extends Component {
                         <Link to="/support-us" activeClassName="active">Support Us</Link>
                     </li>
                     <li>
-                        <a href="https://mydonate.bt.com/donation/v4/chooseAmount.html?charity=156907&currentMonth=1" target="_blank" rel="noopener noreferrer">Donate Online</a>
+                        <a href="https://uk.virginmoneygiving.com/donation-web/charity?charityId=1017542&stop_mobi=yes" target="_blank" rel="noopener noreferrer">Donate Online</a>
                     </li>
                     <li>
                         <Link to="/contact-us" activeClassName="active">Contact Us</Link>
