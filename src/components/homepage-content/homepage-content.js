@@ -7,7 +7,13 @@ const HomepageContent = () => (
 
     <h3>LATEST ANNOUNCEMENTS:</h3>
 
-    <p>The HLCCHL is now a Tenants and Residents Hall, associated with the HLRA,<br />but still registered as Holly Lodge Community Centre.</p>
+    <p>The Monday and Friday lunches will be closed from Monday 19th of August (first lunch closed).</p>
+
+    <p>The lunches reopen on Monday the 9th of September.</p>
+
+    <hr />
+
+    <p>The HLCCHL is a Tenants and Residents Hall, associated with the HLRA,<br />but still registered as Holly Lodge Community Centre.</p>
 
     <a href="https://myhlra.org/" target="_blank" rel="noopener noreferrer">Visit the Holly Lodge Residents Association’s website.</a>
 
