@@ -112,13 +112,13 @@ const Events = () => (
             timeStart="12:00"
             timeEnd="13:30"
             title="The Friday Lunch"
-            cost="£3.00"
+            cost="£3.50"
             venue="The Highgate Newtown Community Centre"
             venueLink="https://www.google.com/maps/place/Highgate+Newtown+Community+Centre/@51.5627592,-0.1432108,15z/data=!4m5!3m4!1s0x0:0x578a7378e932e530!8m2!3d51.5627592!4d-0.1432108"
         >
         <mark>This event will be closed from Friday 23rd of August (first lunch closed).</mark>
         <mark>It will reopen on Friday the 13th of September.</mark>
-        <p>Come over to enjoy a 2 courses fish meal.</p>
+        <p>Come over to enjoy a 3 courses meal.</p>
         </Event>
 
         <Event
