@@ -13,6 +13,20 @@ const SupportUsPage = ({ data }) => (
     <p>Due to budget cuts, all government funding has been eliminated for the Holly Lodge Community Centre. However, thanks to the generosity and support of many, we are happily still able to provide activities and services for the community!</p>
     <p>All donations are most welcome. Thank You!</p>
 
+    <h3>Amazon Smile</h3>
+    <p>Support our charity organization by starting your shopping at <a href="https://smile.amazon.co.uk/ch/293003-0" target="_blank" rel="noopener noreferrer">smile.amazon.com.</a> Amazon donates 0.5% of the price of your eligible AmazonSmile purchases to us. AmazonSmile is the same Amazon you know. Same products, same prices, same service.</p>
+    <p>Click the button below to start shopping and donating.</p>
+    <figure>
+        <a href="https://smile.amazon.co.uk/ch/293003-0" target="_blank" rel="noopener noreferrer">
+            <Img style={{
+                width: `300px`,
+                borderWidth: `1px`,
+                borderStyle: `solid`,
+                borderColor: `orange`
+             }} fluid={data.imageOne.childImageSharp.fluid} alt="Amazon-Smile" />
+         </a>
+    </figure>
+
     <h3>Online Donation</h3>
     <p>To make an online donation, please click on the button below. (This will take you to our donation page on the secure Virgin Money Giving site that supports fundraising for charities.)</p>
     <div className="page-btn">
@@ -26,7 +40,7 @@ const SupportUsPage = ({ data }) => (
     </div>
 
     <figure>
-        <Img fluid={data.imageOne.childImageSharp.fluid} alt="Holly-Lodge-Community-Centre-party-time" />
+        <Img fluid={data.imageTwo.childImageSharp.fluid} alt="Holly-Lodge-Community-Centre-party-time" />
     </figure>
 
     <hr />
@@ -49,7 +63,14 @@ export default SupportUsPage
 
 export const query = graphql`
 query {
-    imageOne: file(relativePath: {eq: "Holly-Lodge-Community-Centre-party-time.jpg"}) {
+    imageOne: file(relativePath: {eq: "amazon-smile-logo.jpg"}) {
+        childImageSharp {
+            fluid(maxWidth: 300) {
+                ...GatsbyImageSharpFluid_withWebp
+            }
+        }
+    }
+    imageTwo: file(relativePath: {eq: "Holly-Lodge-Community-Centre-party-time.jpg"}) {
         childImageSharp {
             fluid (maxWidth: 740) {
                 ...GatsbyImageSharpFluid_withWebp

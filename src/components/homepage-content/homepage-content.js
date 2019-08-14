@@ -23,6 +23,14 @@ const HomepageContent = () => (
 
     <p>Also, Suzuki violin lessons – for further information please <a href="http://www.bluebirdsuzuki.com/" target="_blank" rel="noopener noreferrer">see Miks’ website: bluebirdsuzuki.com.</a></p>
 
+    <hr />
+
+    <p>Support our charity organization by starting your shopping at</p>
+    <h2><a href="https://smile.amazon.co.uk/ch/293003-0" target="_blank" rel="noopener noreferrer">smile.amazon.com</a></h2>
+    <p>Amazon donates 0.5% of the price of your eligible AmazonSmile purchases to us.</p>
+    <p>AmazonSmile is the same Amazon you know.</p>
+    <p>Same products, same prices, same service.</p>
+
   </div>
 )
 
