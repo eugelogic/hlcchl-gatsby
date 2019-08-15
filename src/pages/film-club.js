@@ -18,11 +18,11 @@ const FilmClubPage = () => (
     <p>"Saps At Sea and 'Music' Shorts" with Laurel & Hardy.</p>
     <p><strong>13th September @ 14:00</strong></p>
     <p>"I'm All Right Jack" starring Peter Sellers and Ian Carmichael.</p>
-    <p><strong>9th of August @ 14:00</strong></p>
-    <p>"The Quiet Man" starring John Wayne and Maureen O'Hara.</p>
     <hr />
     <h2>Past viewings</h2>
     <p>This is what you've missed on but do not despair some movies will come back.</p>
+    <p><strong>9th of August @ 14:00</strong></p>
+    <p>"The Quiet Man" starring John Wayne and Maureen O'Hara.</p>
     <p><strong>26th of July @ 14:00</strong></p>
     <p>“Guys and Dolls” starring Marlon Brando and Jean Simmons.</p>
     <p><strong>12th of July @ 14:00</strong></p>
