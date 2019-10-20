@@ -68,14 +68,14 @@ query {
     imageOne: file(relativePath: {eq: "amazon-smile-logo.jpg"}) {
         childImageSharp {
             fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluid_noBase64
             }
         }
     }
     imageTwo: file(relativePath: {eq: "Holly-Lodge-Community-Centre-party-time.jpg"}) {
         childImageSharp {
             fluid (maxWidth: 740) {
-                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluid_noBase64
             }
         }
     }
