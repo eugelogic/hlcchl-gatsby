@@ -13,6 +13,14 @@ const SupportUsPage = ({ data }) => (
     <p>Due to budget cuts, all government funding has been eliminated for the Holly Lodge Community Centre. However, thanks to the generosity and support of many, we are happily still able to provide activities and services for the community!</p>
     <p>All donations are most welcome. Thank You!</p>
 
+    <h3>Online Donation</h3>
+    <p>To make an online donation, click on the button below; you will be redirected to <a href="https://uk.virginmoneygiving.com/donation-web/charity?charityId=1017542&stop_mobi=yes" target="_blank" rel="noopener noreferrer">the Holly Lodge Community Centre donation page on the secure Virgin Money Giving website</a> that supports fundraising for charities.</p>
+    <p>Please make sure you select "Yes" when you are prompted for Gift Aid. That will give us some additional funds at not extra cost to you.</p>
+    <p><a href="https://uk.virginmoneygiving.com/giving/fundraising/gift-aid-awareness/" target="_blank" rel="noopener noreferrer">Read "Gift Aid: what’s stopping you ticking that box"</a> for more information.</p>
+    <div className="page-btn">
+        <Button type="a" link="https://uk.virginmoneygiving.com/donation-web/charity?charityId=1017542&stop_mobi=yes" className="green-btn" target="_blank" rel="noopener noreferrer">Donate Online</Button>
+    </div>
+
     <h3>Amazon Smile</h3>
     <p>Support our charity organization by starting your shopping at <a href="https://smile.amazon.co.uk/ch/293003-0" target="_blank" rel="noopener noreferrer">smile.amazon.com.</a> Amazon donates 0.5% of the price of your eligible AmazonSmile purchases to us. AmazonSmile is the same Amazon you know. Same products, same prices, same service.</p>
     <p>Click the button below to start shopping and donating.</p>
@@ -26,12 +34,6 @@ const SupportUsPage = ({ data }) => (
              }} fluid={data.imageOne.childImageSharp.fluid} alt="Amazon-Smile" />
          </a>
     </figure>
-
-    <h3>Online Donation</h3>
-    <p>To make an online donation, please click on the button below. (This will take you to our donation page on the secure Virgin Money Giving site that supports fundraising for charities.)</p>
-    <div className="page-btn">
-        <Button type="a" link="https://uk.virginmoneygiving.com/donation-web/charity?charityId=1017542&stop_mobi=yes" className="green-btn" target="_blank" rel="noopener noreferrer">Donate Online</Button>
-    </div>
 
     <h3>Donate via post</h3>
     <p>If you prefer to make your donation via post, please download, fill in and post the direct debit form which you can access by clicking the button below.</p>
