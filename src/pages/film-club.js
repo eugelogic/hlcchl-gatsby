@@ -12,19 +12,23 @@ const FilmClubPage = () => (
     <small>All films shown on Fridays unless otherwise stated.</small>
     <hr />
     <h2>Upcoming dates</h2>
+    <p><strong>13th December @ <mark>19:00</mark></strong></p>
+    <p>"It's A Wonderful Life" starring James Stewart.</p>
+    <p><strong>6th December @ 14:00</strong></p>
+    <p>"12 Angry Men" starring Henry Fonda.</p>
     <p><strong>22nd November @ 14:00</strong></p>
     <p>"An American In Paris" starring Gene Kelly and Leslie Caron.</p>
     <p><strong>8th November @ 14:00</strong></p>
     <p>"The Untouchables" starring Kevin Costner and Sean Connery.</p>
+    <hr />
+    <h2>Past viewings</h2>
+    <p>This is what you've missed on but do not despair some movies will come back.</p>
     <p><strong>25th October @ 14:00</strong></p>
     <p>"Phantom Thread" starring Daniel Day-Lewis.</p>
     <p><strong>11th October @ 14:00</strong></p>
     <p>"La Vie En Rose" starring Marion Cotillard.</p>
     <p><strong>27th September @ 14:00</strong></p>
     <p>"Saps At Sea and 'Music' Shorts" with Laurel & Hardy.</p>
-    <hr />
-    <h2>Past viewings</h2>
-    <p>This is what you've missed on but do not despair some movies will come back.</p>
     <p><strong>13th September @ 14:00</strong></p>
     <p>"I'm All Right Jack" starring Peter Sellers and Ian Carmichael.</p>
     <p><strong>9th of August @ 14:00</strong></p>
