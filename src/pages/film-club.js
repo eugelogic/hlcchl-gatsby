@@ -12,9 +12,9 @@ const FilmClubPage = () => (
     <small>All films shown on Fridays unless otherwise stated.</small>
     <hr />
     <h2>Upcoming dates</h2>
-    <p><strong>13th December @ <mark>19:00</mark></strong></p>
+    <p><strong>6th December @ <mark>19:00</mark></strong></p>
     <p>"It's A Wonderful Life" starring James Stewart.</p>
-    <p><strong>6th December @ 14:00</strong></p>
+    <p><strong>29nd November @ 14:00</strong></p>
     <p>"12 Angry Men" starring Henry Fonda.</p>
     <p><strong>22nd November @ 14:00</strong></p>
     <p>"An American In Paris" starring Gene Kelly and Leslie Caron.</p>
