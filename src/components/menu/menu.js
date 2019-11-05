@@ -27,6 +27,9 @@ export default class Menu extends Component {
                         <Link to="/whats-on" activeClassName="active">What's On</Link>
                     </li>
                     <li>
+                        <Link to="/film-club" activeClassName="active">Film Club</Link>
+                    </li>
+                    <li>
                         <Link to="/hall-hire" activeClassName="active">Hall Hire</Link>
                     </li>
                     <li>
