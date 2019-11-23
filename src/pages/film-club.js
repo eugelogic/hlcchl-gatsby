@@ -16,13 +16,13 @@ const FilmClubPage = () => (
     <p>"It's A Wonderful Life" starring James Stewart.</p>
     <p><strong>29nd November @ 14:00</strong></p>
     <p>"12 Angry Men" starring Henry Fonda.</p>
+    <hr />
+    <h2>Past viewings</h2>
+    <p>This is what you've missed on but do not despair some movies will come back.</p>
     <p><strong>22nd November @ 14:00</strong></p>
     <p>"An American In Paris" starring Gene Kelly and Leslie Caron.</p>
     <p><strong>8th November @ 14:00</strong></p>
     <p>"The Untouchables" starring Kevin Costner and Sean Connery.</p>
-    <hr />
-    <h2>Past viewings</h2>
-    <p>This is what you've missed on but do not despair some movies will come back.</p>
     <p><strong>25th October @ 14:00</strong></p>
     <p>"Phantom Thread" starring Daniel Day-Lewis.</p>
     <p><strong>11th October @ 14:00</strong></p>
