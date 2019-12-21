@@ -5,26 +5,26 @@
   "version": "0.1.0",
   "author": "Eugene Molari https://twitter.com/EugeneMolari",
   "dependencies": {
-    "gatsby": "^2.0.88",
-    "gatsby-image": "^2.0.20",
-    "gatsby-plugin-favicon": "^3.1.5",
-    "gatsby-plugin-google-analytics": "^2.0.18",
-    "gatsby-plugin-manifest": "^2.0.9",
-    "gatsby-plugin-netlify": "^2.0.13",
-    "gatsby-plugin-offline": "^2.0.16",
-    "gatsby-plugin-react-helmet": "^3.0.2",
-    "gatsby-plugin-sass": "^2.0.7",
-    "gatsby-plugin-sharp": "^2.0.14",
-    "gatsby-remark-images": "^3.0.6",
-    "gatsby-source-filesystem": "^2.0.8",
-    "gatsby-transformer-remark": "^2.2.2",
-    "gatsby-transformer-sharp": "^2.1.8",
-    "node-sass": "^4.11.0",
-    "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-cookie-consent": "^2.2.2",
-    "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0"
+    "gatsby": "2.18.15",
+    "gatsby-image": "2.2.37",
+    "gatsby-plugin-favicon": "3.1.6",
+    "gatsby-plugin-google-analytics": "2.1.31",
+    "gatsby-plugin-manifest": "2.2.33",
+    "gatsby-plugin-netlify": "2.1.30",
+    "gatsby-plugin-offline": "2.2.10",
+    "gatsby-plugin-react-helmet": "3.1.18",
+    "gatsby-plugin-sass": "2.1.26",
+    "gatsby-plugin-sharp": "2.3.9",
+    "gatsby-remark-images": "3.1.38",
+    "gatsby-source-filesystem": "2.1.42",
+    "gatsby-transformer-remark": "2.6.44",
+    "gatsby-transformer-sharp": "2.3.9",
+    "node-sass": "4.13.0",
+    "prop-types": "15.7.2",
+    "react": "16.7.0",
+    "react-cookie-consent": "2.5.0",
+    "react-dom": "16.7.0",
+    "react-helmet": "5.2.1"
   },
   "keywords": [
     "gatsby"
@@ -38,8 +38,8 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
-    "prettier": "^1.15.2",
-    "url-loader": "^1.1.2"
+    "prettier": "1.19.1",
+    "url-loader": "1.1.2"
   },
   "repository": {
     "type": "git",
