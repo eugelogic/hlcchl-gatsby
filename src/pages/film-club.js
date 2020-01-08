@@ -12,7 +12,14 @@ const FilmClubPage = () => (
     <small>All films shown on Fridays unless otherwise stated.</small>
     <hr />
     <h2>Upcoming dates</h2>
-    <p>More listings coming soon, stay tuned.</p>
+    <p><strong>21st February @ 14:00</strong></p>
+    <p>"Amelia" starring Hilary Swank and Richard Gere.</p>
+    <p><strong>7th February @ 14:00</strong></p>
+    <p>"Catch Me If You Can" starring Leonardo DiCaprio and Tom Hanks.</p>
+    <p><strong>24th January @ 14:00</strong></p>
+    <p>"Cinema Paradiso" starring Philippe Noiret.</p>
+    <p><strong>10th January @ 14:00</strong></p>
+    <p>"High Society" starring Bing Crosby, Grace Kelly and Frank Sinatra.</p>
     <hr />
     <h2>Past viewings</h2>
     <p>This is what you've missed on but do not despair some movies will come back.</p>
