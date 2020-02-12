@@ -12,17 +12,21 @@ const FilmClubPage = () => (
     <small>All films shown on Fridays unless otherwise stated.</small>
     <hr />
     <h2>Upcoming dates</h2>
+    <p><strong>20th March @ 14:00</strong></p>
+    <p>"The Heiress" starring Olivia de Havilland.</p>
+    <p><strong>6th March @ 14:00</strong></p>
+    <p>"Fiddler on the Roof" starring Topol.</p>
     <p><strong>21st February @ 14:00</strong></p>
-    <p>"Amelia" starring Hilary Swank and Richard Gere.</p>
-    <p><strong>7th February @ 14:00</strong></p>
     <p>"Catch Me If You Can" starring Leonardo DiCaprio and Tom Hanks.</p>
+    <hr />
+    <h2>Past viewings</h2>
+    <p>This is what you've missed on but do not despair some movies will come back.</p>
+    <p><strong>7th February @ 14:00</strong></p>
+    <p>"Open Range" starring Kevin Costner.</p>
     <p><strong>24th January @ 14:00</strong></p>
     <p>"Cinema Paradiso" starring Philippe Noiret.</p>
     <p><strong>10th January @ 14:00</strong></p>
     <p>"High Society" starring Bing Crosby, Grace Kelly and Frank Sinatra.</p>
-    <hr />
-    <h2>Past viewings</h2>
-    <p>This is what you've missed on but do not despair some movies will come back.</p>
     <p><strong>6th December @ 19:00</strong></p>
     <p>"It's A Wonderful Life" starring James Stewart.</p>
     <p><strong>29nd November @ 14:00</strong></p>
