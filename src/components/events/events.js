@@ -19,8 +19,8 @@ const Events = () => (
 
         <Event
             bg="entry-odd"
-            timeStart="12:15"
-            timeEnd="14:00"
+            timeStart="12:00"
+            timeEnd="13:30"
             title="The Monday Lunch"
             cost="£3.50"
             venue="The Holly Lodge Community Centre"
