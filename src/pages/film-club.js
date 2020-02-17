@@ -21,24 +21,25 @@ const FilmClubPage = () => (
     <hr />
     <h2>Past viewings</h2>
     <p>This is what you've missed on but do not despair some movies will come back.</p>
-    <p>"Open Range" starring Kevin Costner.</p>
-    <p>"Cinema Paradiso" starring Philippe Noiret.</p>
-    <p>"High Society" starring Bing Crosby, Grace Kelly and Frank Sinatra.</p>
-    <p>"It's A Wonderful Life" starring James Stewart.</p>
-    <p>"12 Angry Men" starring Henry Fonda.</p>
-    <p>"An American In Paris" starring Gene Kelly and Leslie Caron.</p>
-    <p>"The Untouchables" starring Kevin Costner and Sean Connery.</p>
-    <p>"Phantom Thread" starring Daniel Day-Lewis.</p>
-    <p>"La Vie En Rose" starring Marion Cotillard.</p>
-    <p>"Saps At Sea and 'Music' Shorts" with Laurel & Hardy.</p>
-    <p>"I'm All Right Jack" starring Peter Sellers and Ian Carmichael.</p>
-    <p>"The Quiet Man" starring John Wayne and Maureen O'Hara.</p>
-    <p>“Guys and Dolls” starring Marlon Brando and Jean Simmons.</p>
-    <p>“How Green Was My Valley” starring Walter Pidgeon and Maureen O'Hara.</p>
-    <p>“To Kill a Mockingbird” starring Gregory Peck.</p>
-    <p>“Gentleman’s Agreement” starring Gregory Peck.</p>
-    <p>“Funny Face” to complete Audrey Hepburn season.</p>
-    <p>“Sabrina” with Audrey Hepburn and Humphrey Bogart.</p>
+    <ul>
+      <li>"Cinema Paradiso" starring Philippe Noiret.</li>
+      <li>"High Society" starring Bing Crosby, Grace Kelly and Frank Sinatra.</li>
+      <li>"It's A Wonderful Life" starring James Stewart.</li>
+      <li>"12 Angry Men" starring Henry Fonda.</li>
+      <li>"An American In Paris" starring Gene Kelly and Leslie Caron.</li>
+      <li>"The Untouchables" starring Kevin Costner and Sean Connery.</li>
+      <li>"Phantom Thread" starring Daniel Day-Lewis.</li>
+      <li>"La Vie En Rose" starring Marion Cotillard.</li>
+      <li>"Saps At Sea and 'Music' Shorts" with Laurel & Hardy.</li>
+      <li>"I'm All Right Jack" starring Peter Sellers and Ian Carmichael.</li>
+      <li>"The Quiet Man" starring John Wayne and Maureen O'Hara.</li>
+      <li>“Guys and Dolls” starring Marlon Brando and Jean Simmons.</li>
+      <li>“How Green Was My Valley” starring Walter Pidgeon and Maureen O'Hara.</li>
+      <li>“To Kill a Mockingbird” starring Gregory Peck.</li>
+      <li>“Gentleman’s Agreement” starring Gregory Peck.</li>
+      <li>“Funny Face” to complete Audrey Hepburn season.</li>
+      <li>“Sabrina” with Audrey Hepburn and Humphrey Bogart.</li>
+    </ul>
   </LayoutPage>
 )
 
