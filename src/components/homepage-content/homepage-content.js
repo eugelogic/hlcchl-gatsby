@@ -7,6 +7,10 @@ const HomepageContent = () => (
 
     <h3>LATEST ANNOUNCEMENTS:</h3>
 
+    <p>NEW - Drop in any time between 2pm and 4pm, Tuesdays and Wednesdays<br /> for tea, coffee, use of computers, board games and a chat with our Manager, Mike.</p>
+
+    <hr />
+
     <p>The HLCCHL is a Tenants and Residents Hall, associated with the HLRA,<br />but still registered as Holly Lodge Community Centre.</p>
 
     <a href="https://myhlra.org/" target="_blank" rel="noopener noreferrer">Visit the Holly Lodge Residents Association’s website.</a>
@@ -15,7 +19,7 @@ const HomepageContent = () => (
 
     <p>Lots going on at the centre this term! <Link to="/whats-on">Check our events calendar for details.</Link></p>
 
-    <p>Also, Suzuki violin lessons – for further information please <a href="http://www.bluebirdsuzuki.com/" target="_blank" rel="noopener noreferrer">see Miks’ website: bluebirdsuzuki.com.</a></p>
+    <p>Also, Suzuki violin lessons – after school Mondays, Tuesdays and Thursdays.<br />For further information please <a href="http://www.bluebirdsuzuki.com/" target="_blank" rel="noopener noreferrer">see Miks’ website: bluebirdsuzuki.com.</a></p>
 
     <hr />
 

@@ -27,7 +27,7 @@ const Events = () => (
             venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
         >
         <p>A freshly cooked three course meal with tea or coffee.</p>
-        <p>Games available too. All welcome.</p>
+        <p>Board games available too. All welcome.</p>
         <p>Every Monday except Bank holidays.</p>
         <p>For more information call us on <a href="tel:02083429524">0208 342 9524</a> or email us at <a href="mailto:hollylodgelondon@hotmail.com">hollylodgelondon@hotmail.com</a></p>
         </Event>
@@ -64,15 +64,28 @@ const Events = () => (
 
         <Event
             bg="entry-even"
-            timeStart="16:00"
-            timeEnd="18:00"
-            title="Kidsart – classes for children"
-            cost="please contact class tutor direct"
+            timeStart="16:00-17:00"
+            timeEnd="17:00-18:00"
+            title="Kidsart – classes for children (two sessions)"
+            cost="£13.50 per session"
             venue="The Holly Lodge Community Centre"
             venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
         >
         <p>A chance for kids to be creative and to learn some art appreciation.</p>
-        <p>For more information call <a href="tel:07827275821">07827 275821.</a></p>
+        <p>For more information call <a href="tel:07827275821">07827 275821</a> or <a href="https://kidsartuk.com/" target="_blank" rel="noopener noreferrer"> visit the website.</a></p>
+        </Event>
+
+        <Event
+            bg="entry-odd"
+            timeStart="20:00"
+            timeEnd="21:00"
+            title="The London Telescope and Astronomical Society"
+            cost="free"
+            venue="The Holly Lodge Community Centre"
+            venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
+        >
+        <p>Make and use your own telescope and view the stars!</p>
+        <p>This event is held fortnightly from the 15th of January 2020, please <a href="mailto:chris@palanquin.plus.com">contact Chris Bryant (chris@palanquin.plus.com)</a> for more information.</p>
         </Event>
 
     <DOWBar>Thursdays</DOWBar>
@@ -82,13 +95,26 @@ const Events = () => (
             timeStart="14:00"
             timeEnd="15:00"
             title="Yoga with Ad de Koning"
-            cost="please contact class tutor direct"
+            cost="please contact class tutor directly"
             venue="The Holly Lodge Community Centre"
             venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
         >
         <p>Gentle yoga suitable for all levels of ability.</p>
         <p>Call Ad on <a href="tel:07949408036">07949 408036</a>, or email <a href="mailto:ajdekoning@tiscali.co.uk">ajdekoning@tiscali.co.uk</a></p>
 
+        </Event>
+
+        <Event
+            bg="entry-even"
+            timeStart="16:00-17:00"
+            timeEnd="17:00-18:00"
+            title="Kidsart – classes for children (two sessions)"
+            cost="£13.50 per session"
+            venue="The Holly Lodge Community Centre"
+            venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
+        >
+        <p>A chance for kids to be creative and to learn some art appreciation.</p>
+        <p>For more information call <a href="tel:07827275821">07827 275821</a> or <a href="https://kidsartuk.com/" target="_blank" rel="noopener noreferrer"> visit the website.</a></p>
         </Event>
 
     <DOWBar>Fridays</DOWBar>
@@ -103,6 +129,7 @@ const Events = () => (
             venueLink="https://www.google.com/maps/place/Highgate+Newtown+Community+Centre/@51.5627592,-0.1432108,15z/data=!4m5!3m4!1s0x0:0x578a7378e932e530!8m2!3d51.5627592!4d-0.1432108"
         >
         <p>Come over to enjoy a 3 courses meal.</p>
+        <p>Board games available after lunch. All welcome.</p>
         </Event>
 
         <Event
@@ -116,7 +143,7 @@ const Events = () => (
         >
         <p>Free film club, all welcome.</p>
         <p><Link to="/film-club">View full listing on the Film Club page.</Link></p>
-        <p>Email <a href="mailto:hollylodgelondon@hotmail.com">hollylodgelondon@hotmail</a> for more information.</p>
+        <p>This event is held fortnightly from the 24th of January 2020, please email <a href="mailto:hollylodgelondon@hotmail.com">hollylodgelondon@hotmail</a> for more information.</p>
         </Event>
 
     <DOWBar>Saturdays</DOWBar>
@@ -126,7 +153,7 @@ const Events = () => (
             timeStart="09:30"
             timeEnd="10:30"
             title="Zum Dance"
-            cost="£10 per session or £8 if signing up for 10 sessions."
+            cost="£10 per session or £8 if signing up for 10 sessions. Children special rates."
             venue="The Holly Lodge Community Centre"
             venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
         >
