@@ -12,16 +12,13 @@ const FilmClubPage = () => (
     <small>All films shown on Fridays unless otherwise stated.</small>
     <hr />
     <h2>Upcoming dates</h2>
-    <p><strong>20th March @ 14:00</strong></p>
-    <p>"The Heiress" starring Olivia de Havilland.</p>
-    <p><strong>6th March @ 14:00</strong></p>
-    <p>"Fiddler on the Roof" starring Topol.</p>
-    <p><strong>21st February @ 14:00</strong></p>
-    <p>"Catch Me If You Can" starring Leonardo DiCaprio and Tom Hanks.</p>
+    <p>Please stay tuned for some new listings.</p>
     <hr />
     <h2>Past viewings</h2>
     <p>This is what you've missed on but do not despair some movies will come back.</p>
     <ul>
+      <li>"Fiddler on the Roof" starring Topol.</li>
+      <li>"Catch Me If You Can" starring Leonardo DiCaprio and Tom Hanks.</li>
       <li>"Cinema Paradiso" starring Philippe Noiret.</li>
       <li>"High Society" starring Bing Crosby, Grace Kelly and Frank Sinatra.</li>
       <li>"It's A Wonderful Life" starring James Stewart.</li>
