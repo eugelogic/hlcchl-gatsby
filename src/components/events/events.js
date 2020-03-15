@@ -15,23 +15,6 @@ const Events = () => (
 
     <h2>Weekly events:</h2>
 
-    <DOWBar>Mondays</DOWBar>
-
-        <Event
-            bg="entry-odd"
-            timeStart="12:00"
-            timeEnd="13:30"
-            title="The Monday Lunch"
-            cost="£3.50"
-            venue="The Holly Lodge Community Centre"
-            venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
-        >
-        <p>A freshly cooked three course meal with tea or coffee.</p>
-        <p>Board games available too. All welcome.</p>
-        <p>Every Monday except Bank holidays.</p>
-        <p>For more information call us on <a href="tel:02083429524">0208 342 9524</a> or email us at <a href="mailto:hollylodgelondon@hotmail.com">hollylodgelondon@hotmail.com</a></p>
-        </Event>
-
     <DOWBar>Tuesdays</DOWBar>
 
         <Event
@@ -115,35 +98,6 @@ const Events = () => (
         >
         <p>A chance for kids to be creative and to learn some art appreciation.</p>
         <p>For more information call <a href="tel:07827275821">07827 275821</a> or <a href="https://kidsartuk.com/" target="_blank" rel="noopener noreferrer"> visit the website.</a></p>
-        </Event>
-
-    <DOWBar>Fridays</DOWBar>
-
-        <Event
-            bg="entry-odd"
-            timeStart="12:00"
-            timeEnd="13:30"
-            title="The Friday Lunch"
-            cost="£3.50"
-            venue="The Highgate Newtown Community Centre"
-            venueLink="https://www.google.com/maps/place/Highgate+Newtown+Community+Centre/@51.5627592,-0.1432108,15z/data=!4m5!3m4!1s0x0:0x578a7378e932e530!8m2!3d51.5627592!4d-0.1432108"
-        >
-        <p>Come over to enjoy a 3 courses meal.</p>
-        <p>Board games available after lunch. All welcome.</p>
-        </Event>
-
-        <Event
-            bg="entry-even"
-            timeStart="14:00"
-            timeEnd="17:00"
-            title="Film Club"
-            cost="free"
-            venue="The Holly Lodge Community Centre"
-            venueLink="https://www.google.com/maps/place/Holly+Lodge+Community+Centre/@51.5646877,-0.1504739,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a5175b7d52f:0xdec4c5d5e49a058a!8m2!3d51.5646844!4d-0.1482852"
-        >
-        <p>Free film club, all welcome.</p>
-        <p><Link to="/film-club">View full listing on the Film Club page.</Link></p>
-        <p>This event is held fortnightly from the 24th of January 2020, please email <a href="mailto:hollylodgelondon@hotmail.com">hollylodgelondon@hotmail</a> for more information.</p>
         </Event>
 
     <DOWBar>Saturdays</DOWBar>
