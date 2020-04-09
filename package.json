@@ -19,7 +19,7 @@
     "gatsby-source-filesystem": "2.1.42",
     "gatsby-transformer-remark": "2.6.44",
     "gatsby-transformer-sharp": "2.3.9",
-    "node-sass": "4.13.0",
+    "node-sass": "4.13.1",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-cookie-consent": "2.5.0",
