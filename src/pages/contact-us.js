@@ -32,23 +32,23 @@ const ContactUsPage = () => (
                     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                 </p>
                 <p>
-                    <label>Your Name*</label><br />
+                    <label htmlFor="name">Your Name*</label><br />
                     <input type="text" name="name" required="required" />
                 </p>
                 <p>
-                    <label>Your Email*</label><br />
+                    <label htmlFor="email">Your Email*</label><br />
                     <input type="email" name="email" required="required" />
                 </p>
                 <p>
-                    <label>Subject</label><br />
+                    <label htmlFor="subject">Subject</label><br />
                     <input type="text" name="subject" />
                 </p>
                 <p>
-                    <label>How did you hear about us?</label><br />
+                    <label htmlFor="conversion">How did you hear about us?</label><br />
                     <input type="text" name="conversion" />
                 </p>
                 <p>
-                    <label>Your Message*</label><br />
+                    <label htmlFor="message">Your Message*</label><br />
                     <textarea name="message" rows="5" maxlength="750" required="required" ></textarea>
                     <small>* = required field</small>
                 </p>
