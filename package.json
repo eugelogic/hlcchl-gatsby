@@ -12,7 +12,7 @@
     "gatsby-plugin-manifest": "2.2.33",
     "gatsby-plugin-netlify": "2.1.30",
     "gatsby-plugin-react-helmet": "3.1.18",
-    "gatsby-plugin-remove-serviceworker": "^1.0.0",
+    "gatsby-plugin-remove-serviceworker": "1.0.0",
     "gatsby-plugin-sass": "2.1.26",
     "gatsby-plugin-sharp": "2.3.9",
     "gatsby-remark-images": "3.1.38",
