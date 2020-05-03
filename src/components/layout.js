@@ -6,7 +6,7 @@ import SEO from './seo'
 import Header from './header'
 import Menu from '../components/menu/menu'
 import HomepageHero from '../components/homepage-hero/homepage-hero'
-import HomepageContent from '../components/homepage-content/homepage-content'
+import HomepageLatest from '../components/homepage-latest/homepage-latest'
 import HomepageCards from '../components/homepage-cards/homepage-cards'
 import Footer from './footer'
 import CookieConsent from "react-cookie-consent";
@@ -29,7 +29,7 @@ const Layout = () => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Menu />
         <HomepageHero />
-        <HomepageContent />
+        <HomepageLatest />
         <HomepageCards />
         <Footer />
         <CookieConsent

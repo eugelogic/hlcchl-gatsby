@@ -1,0 +1,27 @@
+@import '../style.scss';
+
+.homepage-latest {
+  background-color: $light-grey-bg;
+  padding: 70px 20px;
+
+  h3,
+  h4,
+  .centre-aligned {
+    text-align: center;
+  }
+
+  hr {
+    margin: 70px auto;
+    width: 50%;
+  }
+
+  h3,
+  p {
+    margin-bottom: 30px;
+  }
+
+  .copy {
+    max-width: 690px;
+    margin: 0 auto;
+  }
+}
