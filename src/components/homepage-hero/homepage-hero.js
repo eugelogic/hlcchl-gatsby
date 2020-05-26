@@ -7,13 +7,13 @@ const HomepageHero = () => (
 
     <div className="homepage-hero__box-one">
 
-      <h2>By the community, for the community.</h2>
+      <h2>Lorem ipsum dolor sit amet.</h2>
 
     </div>
 
     <div className="homepage-hero__box-two">
 
-      <h1>The Holly Lodge Community Centre offers a whole range of activities in a friendly, relaxed environment. We also offer space to hire for events.</h1>
+      <h1>Vitae suscipit tellus mauris a diam. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt.</h1>
 
     </div>
 
