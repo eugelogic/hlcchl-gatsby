@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <p style={{ margin: 0 }}>
-        Call Us on <a href="tel:02083429524">0208 342 9524</a> or Send Us an Email at <a href="mailto:hollylodgelondon@hotmail.com">hollylodgelondon@hotmail.com</a>
+        Call Us on <a href="tel:0208070605">0208 070 6050</a> or Send Us an Email at <a href="mailto:hello@email.com">hello@email.com</a>
       </p>
     </div>
  </div>

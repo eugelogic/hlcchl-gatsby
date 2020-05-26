@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Holly Lodge Community Centre - Highgate London`,
-    description: `By the community, for the community.`,
+    title: `Heath Lodge Community Centre - London`,
+    description: `Lorem ipsum dolor sit amet.`,
     author: `@EugeneMolari`,
   },
   plugins: [
