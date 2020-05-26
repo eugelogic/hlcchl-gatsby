@@ -27,7 +27,7 @@ export default ({ data }) => {
           cookieName="HLCCHL-CookieConsent"
           style={{ background: "#439de6" }}
         >
-          This website uses <a href="/cookies/">cookies</a> to enhance the user experience.
+          This is a fictitious website for demonstration purposes only.
         </CookieConsent>
     </>
   )
