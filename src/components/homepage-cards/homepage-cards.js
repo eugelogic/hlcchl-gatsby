@@ -18,7 +18,8 @@ const HomepageCards = () => (
             </div>
 
             <div className="card__copy">
-                <p>We have an attractive, newly refurbished space for hire, with a commercial style kitchen and a lovely terrace. If you would like to hold lectures, classes, workshops, seminars or meetings do get in touch. <strong>Unfortunately we are not hiring out the hall for parties.</strong></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Vulputate odio ut enim blandit volutpat maecenas. Integer quis auctor elit sed vulputate mi sit amet. Vestibulum mattis ullamcorper velit.</p>
             </div>
 
             <div className="card__btn">
@@ -37,7 +38,8 @@ const HomepageCards = () => (
             </div>
 
             <div className="card__copy">
-                <p>Enjoy volunteering, or want to give it a go? Have a skill set you want to share, or just want to help out? We always need motivated volunteers. Please fill in the form on our Contact Us page and we’ll get back to you as soon as possible.</p>
+            <p>Vulputate odio ut enim blandit volutpat maecenas. Integer quis auctor elit sed vulputate mi sit amet. Vestibulum mattis ullamcorper velit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
 
             <div className="card__btn">
@@ -56,7 +58,8 @@ const HomepageCards = () => (
             </div>
 
             <div className="card__copy">
-                <p>Come participate in one of our many activities. Among our current class offerings you’ll find Judo, yoga, and art. Attend local meetings, as well as a variety of other events. Have a look at our calendar to find out what’s on, and when.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Vulputate odio ut enim blandit volutpat maecenas. Integer quis auctor elit sed vulputate mi sit amet. Vestibulum mattis ullamcorper velit.</p>
             </div>
 
             <div className="card__btn">
