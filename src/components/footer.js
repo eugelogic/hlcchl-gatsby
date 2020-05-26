@@ -19,7 +19,7 @@ const Footer = () => (
           margin: 0,
           fontSize: `14px`
        }}>
-        <p style={{ marginBottom: `5px` }}>Holly Lodge Community Centre is a registered charity 293003 2013-2017</p>
+        <p style={{ marginBottom: `5px` }}>Heath Lodge Community Centre - London</p>
         <p style={{ marginBottom: 0 }}>
             {new Date().getFullYear()} - Website crafted by <a style={{ color: `#8c8989` }} href="https://twitter.com/EugeneMolari" target="_black">
                 WebJigsaw
