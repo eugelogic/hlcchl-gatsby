@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Heath Lodge Community Centre - London`,
+    title: `Former: Heath Lodge Community Centre - London`,
+    siteUrl: `https://ex-hlcchl-gatsby.netlify.app/`,
     description: `Lorem ipsum dolor sit amet.`,
     author: `@EugeneMolari`,
   },
